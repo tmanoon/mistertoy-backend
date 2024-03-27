@@ -11,6 +11,18 @@
         "_id": "6Z9lhL"
     },
     {
+        "name": "Chess by Vanilla JS",
+        "price": 100,
+        "labels": [
+            "Art",
+            "Lego",
+            "Box game"
+        ],
+        "createdAt": 1687467600000,
+        "inStock": false,
+        "_id": "6Z9lhL"
+    },
+    {
         "name": "Harry Potter - Lego",
         "price": 100,
         "labels": [
@@ -136,19 +148,8 @@
         "_id": "xBTInj"
     },
     {
-        "name": "Checkers for Yom Kippur",
-        "price": 14,
-        "labels": [
-            "Box game",
-            "Art"
-        ],
-        "createdAt": 322351200000,
-        "inStock": true,
-        "_id": "L7njur"
-    },
-    {
         "name": "Talking Kashoosh - Shoval's house",
-        "price": null,
+        "price": 1000000,
         "labels": [
             "Art",
             "Battery Powered",

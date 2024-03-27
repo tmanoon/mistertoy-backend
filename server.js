@@ -47,7 +47,7 @@ app.get('/api/toy', (req, res) => {
 
     const filterBy = {
         name: req.query.name || '',
-        inStock: Boolean(req.query.inStock) || '',
+        inStock: req.query.inStock || '',
         sortBy: req.query.sortBy || ''
     }
     toyService.query(filterBy)
