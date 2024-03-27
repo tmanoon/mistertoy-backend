@@ -145,5 +145,17 @@
         "createdAt": 322351200000,
         "inStock": true,
         "_id": "L7njur"
+    },
+    {
+        "name": "Talking Kashoosh - Shoval's house",
+        "price": null,
+        "labels": [
+            "Art",
+            "Battery Powered",
+            "Baby"
+        ],
+        "inStock": false,
+        "_id": "iGHYx",
+        "createdAt": 1711540457674
     }
 ]
