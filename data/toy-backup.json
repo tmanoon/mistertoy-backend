@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Starry Nights - Lego",
+        "price": 100,
+        "labels": [
+            "Art",
+            "Lego"
+        ],
+        "createdAt": 1687467600000,
+        "inStock": false,
+        "_id": "6Z9lhL"
+    },
+    {
+        "name": "Harry Potter - Lego",
+        "price": 100,
+        "labels": [
+            "Art",
+            "Lego"
+        ],
+        "createdAt": 1666472400000,
+        "inStock": true,
+        "_id": "evZcM7"
+    },
+    {
+        "name": "Harry Potter - Lego",
+        "price": 100,
+        "labels": [
+            "Art",
+            "Lego"
+        ],
+        "createdAt": 1666472400000,
+        "inStock": true,
+        "_id": "peeV1e"
+    },
+    {
+        "name": "Chess Board - Vanilla JS",
+        "price": 10,
+        "labels": [
+            "Box game",
+            "Art",
+            "Computer Game"
+        ],
+        "createdAt": 1707775200000,
+        "inStock": false,
+        "_id": "AwQzZr"
+    },
+    {
+        "name": "Miss Bug - Vanilla JS",
+        "price": 10,
+        "labels": [
+            "Art",
+            "Computer Game"
+        ],
+        "createdAt": 1710885600000,
+        "inStock": true,
+        "_id": "UVOWoy"
+    },
+    {
+        "name": "Robot - RoboHash",
+        "price": 50,
+        "labels": [
+            "On wheels",
+            "Art",
+            "Battery Powered"
+        ],
+        "createdAt": 1711317600000,
+        "inStock": true,
+        "_id": "mg6bT9"
+    },
+    {
+        "name": "Robot - RoboHash",
+        "price": 50,
+        "labels": [
+            "On wheels",
+            "Art",
+            "Battery Powered"
+        ],
+        "createdAt": 1711317600000,
+        "inStock": true,
+        "_id": "Hvfz0v"
+    },
+    {
+        "name": "Robot - RoboHash",
+        "price": 50,
+        "labels": [
+            "On wheels",
+            "Art",
+            "Battery Powered"
+        ],
+        "createdAt": 1711317600000,
+        "inStock": true,
+        "_id": "iWraNi"
+    },
+    {
+        "name": "Jade from Bratz - Bratz",
+        "price": 60,
+        "labels": [
+            "Doll",
+            "Outdoor"
+        ],
+        "createdAt": 1690578000000,
+        "inStock": false,
+        "_id": "t9ameY"
+    },
+    {
+        "name": "Sarit Hadad - Disney",
+        "price": 60,
+        "labels": [
+            "Doll",
+            "Battery Powered"
+        ],
+        "createdAt": 1095627600000,
+        "inStock": true,
+        "_id": "tkvlHC"
+    },
+    {
+        "name": "Checkers for Yom Kippur",
+        "price": 14,
+        "labels": [
+            "Box game",
+            "Art"
+        ],
+        "createdAt": 322351200000,
+        "inStock": true,
+        "_id": "PotT7P"
+    },
+    {
+        "name": "Checkers for Yom Kippur",
+        "price": 14,
+        "labels": [
+            "Box game",
+            "Art"
+        ],
+        "createdAt": 322351200000,
+        "inStock": true,
+        "_id": "xBTInj"
+    },
+    {
+        "name": "Checkers for Yom Kippur",
+        "price": 14,
+        "labels": [
+            "Box game",
+            "Art"
+        ],
+        "createdAt": 322351200000,
+        "inStock": true,
+        "_id": "L7njur"
+    }
+]
