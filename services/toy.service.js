@@ -1,7 +1,7 @@
 
 import fs from 'fs'
 import { utilService } from './util.service.js'
-import { loggerService } from './logger.service.js'
+// import { loggerService } from './logger.service.js'
 
 export const toyService = {
     query,
@@ -13,12 +13,42 @@ export const toyService = {
 const toys = utilService.readJsonFile('data/toy.json')
 
 function query(filterBy = {}) {
-    const regex = new RegExp(filterBy.txt, 'i')
-    var toysToReturn = toys.filter(toy => regex.test(toy.vendor))
-    if (filterBy.maxPrice) {
-        toysToReturn = toysToReturn.filter(toy => toy.price <= filterBy.maxPrice)
+    let filteredToys = toys
+    if (filterBy.name) {
+        const regex = new RegExp(filterBy.name, 'i')
+        filteredToys = filteredToys.filter(toy => regex.test(toy.name))
     }
-    return Promise.resolve(toysToReturn)
+    if (filterBy.inStock) {
+        if (filterBy.inStock === 'low') {
+            let lowStockToys = []
+            let stockOfToys = filteredToys.reduce((acc, currToy) => {
+                if (currToy.inStock) {
+                    if (acc[currToy.name]) acc[currToy.name]++
+                    else acc[currToy.name] = 1
+                }
+                return acc
+            }, {})
+
+            for (const toy in stockOfToys) {
+                if (stockOfToys[toy] <= 2 && stockOfToys[toy] > 0) {
+                    lowStockToys.push(filteredToys.find(_toy => _toy.name === toy))
+                }
+            }
+            filteredToys = lowStockToys
+        } else {
+            const stockStatus = filterBy.inStock === 'available' ? true : false
+            filteredToys = filteredToys.filter(toy => toy.inStock === stockStatus)
+        }
+    }
+    if (filterBy.sortBy) {
+        if (filterBy.sortBy === 'name') {
+            filteredToys = filteredToys.sort((firstToy, secondToy) => firstToy.name.localeCompare(secondToy.name))
+        }
+        else {
+            filteredToys = filteredToys.sort((firstToy, secondToy) => firstToy[filterBy.sortBy] - secondToy[filterBy.sortBy])
+        }
+    }
+    return Promise.resolve(filteredToys)
 }
 
 function getById(toyId) {
@@ -45,9 +75,10 @@ function save(toy, loggedinUser) {
         //     carToUpdate.owner._id !== loggedinUser._id) {
         //     return Promise.reject('Not your car')
         // }
-        toyToUpdate.vendor = toy.vendor
-        toyToUpdate.speed = toy.speed
+        toyToUpdate.name = toy.name
         toyToUpdate.price = toy.price
+        toyToUpdate.labels = toy.labels
+        toyToUpdate.inStock = toy.inStock
         toy = toyToUpdate
     } else {
         toy._id = utilService.makeId()
@@ -60,7 +91,7 @@ function save(toy, loggedinUser) {
         // }
         toys.push(toy)
     }
-    
+
     return _saveToysToFile().then(() => toy)
 }
 
@@ -70,7 +101,7 @@ function _saveToysToFile() {
         const data = JSON.stringify(toys, null, 4)
         fs.writeFile('data/toy.json', data, (err) => {
             if (err) {
-                loggerService.error('Cannot write to toys file', err)
+                // loggerService.error('Cannot write to toys file', err)
                 return reject(err)
             }
             resolve()
