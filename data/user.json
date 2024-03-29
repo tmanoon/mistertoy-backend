@@ -1,0 +1,20 @@
+[
+    {
+        "fullname": "Manoon Manooni",
+        "username": "manoon",
+        "password": "manoon",
+        "isAdmin": true
+    },
+    {
+        "fullname": "Kashoosh Kashooshi",
+        "username": "kashoosh",
+        "password": "kashoosh",
+        "isAdmin": false
+    },
+    {
+        "fullname": "Shoval Sabag",
+        "username": "Shovals",
+        "password": "shovals",
+        "isAdmin": true
+    }
+]
