@@ -5,16 +5,20 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 import { utilService } from '../../services/util.service.js'
 
-async function query(filterBy = {}) {
+async function query(filterBy = { name: '', inStock: 'all', sortBy: '' }) {
     try {
-        let toys = await dbService.getCollection('toy').find()
-        if (filterBy.name || filterBy.inStock) {
+        let collection = await dbService.getCollection('toy')
+        let toys = await collection.find().toArray()
+        if (filterBy.name || filterBy.inStock !== 'all') {
             const criteria = {}
             if (filterBy.name) criteria.name = { $regex: filterBy.name, $options: 'i' }
-            if (filterBy.inStock) criteria.inStock = { $eq: filterBy.inStock }
+            if (filterBy.inStock !== 'all') {
+                criteria.inStock = filterBy.inStock === 'available' ? { $eq: true } : { $eq: false }
+            }
             toys = await collection.find(criteria).toArray()
-            if (filterBy.sortBy) toys = db.products.find().sort({ [filterBy.sortBy]: 1 })
+
         }
+        if (filterBy.sortBy) toys = await collection.find().sort({ [filterBy.sortBy]: 1 }).toArray()
         return toys
     } catch (err) {
         logger.error('cannot find toys', err)
@@ -24,7 +28,8 @@ async function query(filterBy = {}) {
 
 async function getById(toyId) {
     try {
-        const toy = await dbService.getCollection('toy').findOne({ _id: ObjectId(toyId) })
+        const collection = await dbService.getCollection('toy')
+        const toy = await collection.findOne({ _id: ObjectId(toyId) })
         return toy
     } catch (err) {
         logger.error(`while finding toy ${toyId}`, err)
@@ -34,7 +39,13 @@ async function getById(toyId) {
 
 async function remove(toyId) {
     try {
-        await dbService.getCollection('toy').deleteOne({ _id: ObjectId(toyId) })
+        const collection = await dbService.getCollection('toy')
+        const result = await collection.deleteOne({ _id: ObjectId(toyId) })
+        if (result.deletedCount === 1) {
+            console.log('Document deleted successfully.');
+        } else {
+            console.log('No document found with the specified id.');
+        }
     } catch (err) {
         logger.error(`cannot remove toy ${toyId}`, err)
         throw err
@@ -43,6 +54,7 @@ async function remove(toyId) {
 
 async function add(toy) {
     try {
+
         const collection = await dbService.getCollection('toy')
         await collection.insertOne(toy)
         return toy
