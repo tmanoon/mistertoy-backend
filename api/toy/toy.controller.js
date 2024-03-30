@@ -1,5 +1,6 @@
 import { toyService } from './toy.service.js'
 import { logger } from '../../services/logger.service.js'
+import { authService } from '../auth/auth.service.js'
 
 export async function loadToys(req, res) {
     try {
@@ -29,10 +30,11 @@ export async function getToyById(req, res) {
 }
 
 export async function addToy(req, res) {
-    const { loggedinUser } = req
     try {
+        const loggedInUser = authService.validateToken(req.cookies.loginToken)
+        logger.info(req.body)
         const toy = req.body
-        toy.owner = loggedinUser
+        toy.owner = loggedInUser.fullname
         const addedToy = await toyService.add(toy)
         res.json(addedToy)
     } catch (err) {
