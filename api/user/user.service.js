@@ -1,6 +1,5 @@
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
-
 import mongodb from 'mongodb'
 const { ObjectId } = mongodb
 
@@ -94,9 +93,11 @@ async function add(user) {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
-            score: user.score || 0
+            isAdmin: user.isAdmin
         }
         const collection = await dbService.getCollection('user')
+        const backupCollection = await dbService.getCollection('user_backup')
+        await backupCollection.insertOne(userToAdd)
         await collection.insertOne(userToAdd)
         return userToAdd
     } catch (err) {
@@ -118,8 +119,8 @@ function _buildCriteria(filterBy) {
             }
         ]
     }
-    if (filterBy.minBalance) {
-        criteria.balance = { $gte: filterBy.minBalance }
-    }
+    // if (filterBy.minBalance) {
+    //     criteria.balance = { $gte: filterBy.minBalance }
+    // }
     return criteria
 }
