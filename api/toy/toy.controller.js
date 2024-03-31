@@ -18,6 +18,8 @@ export async function loadToys(req, res) {
     }
 }
 
+console.log(logger)
+
 export async function getToyById(req, res) {
     try {
         const toyId = req.params.id

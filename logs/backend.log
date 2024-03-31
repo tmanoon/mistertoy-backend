@@ -1,931 +1,167 @@
-29.3.2024, 17:21:27 - INFO - server.js loaded... 
-29.3.2024, 17:21:27 - INFO - Server is running on port: 3030 
-29.3.2024, 17:22:18 - INFO - server.js loaded... 
-29.3.2024, 17:22:18 - INFO - Server is running on port: 3030 
-29.3.2024, 17:41:45 - INFO - server.js loaded... 
-29.3.2024, 17:41:45 - ERROR - Failed to connect to MongoDB | ReferenceError: dbService is not defined 
-29.3.2024, 17:42:01 - INFO - server.js loaded... 
-29.3.2024, 17:42:01 - ERROR - Failed to connect to MongoDB | TypeError: dbService._connect is not a function 
-29.3.2024, 18:13:32 - INFO - server.js loaded... 
-29.3.2024, 18:13:32 - INFO - Server is running on port: 3030 
-29.3.2024, 18:14:35 - INFO - Req was made | / 
-29.3.2024, 18:14:35 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:14:35 - ERROR - cannot find toys | TypeError: dbService.getCollection(...).find is not a function 
-29.3.2024, 18:14:35 - ERROR - Failed to load toys | TypeError: dbService.getCollection(...).find is not a function 
-29.3.2024, 18:30:02 - INFO - server.js loaded... 
-29.3.2024, 18:30:02 - INFO - Server is running on port: 3030 
-29.3.2024, 18:30:06 - INFO - Req was made | / 
-29.3.2024, 18:30:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:30:10 - INFO - Req was made | / 
-29.3.2024, 18:30:10 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:30:11 - INFO - Req was made | / 
-29.3.2024, 18:30:11 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:33:14 - INFO - server.js loaded... 
-29.3.2024, 18:33:14 - INFO - Server is running on port: 3030 
-29.3.2024, 18:33:17 - INFO - Req was made | / 
-29.3.2024, 18:33:17 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:33:17 - ERROR - cannot find toys | TypeError: collection.find is not a function 
-29.3.2024, 18:33:17 - ERROR - Failed to load toys | TypeError: collection.find is not a function 
-29.3.2024, 18:35:12 - INFO - server.js loaded... 
-29.3.2024, 18:35:12 - INFO - Server is running on port: 3030 
-29.3.2024, 18:36:15 - INFO - server.js loaded... 
-29.3.2024, 18:36:15 - INFO - Server is running on port: 3030 
-29.3.2024, 18:36:24 - INFO - Req was made | / 
-29.3.2024, 18:36:24 - ERROR - Failed to load toys | TypeError: collection.find is not a function 
-29.3.2024, 18:36:24 - ERROR - cannot find toys | TypeError: collection.find is not a function 
-29.3.2024, 18:36:24 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:37:36 - INFO - server.js loaded... 
-29.3.2024, 18:37:36 - INFO - Server is running on port: 3030 
-29.3.2024, 18:37:38 - INFO - Req was made | / 
-29.3.2024, 18:37:38 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 18:38:04 - INFO - server.js loaded... 
-29.3.2024, 18:38:04 - INFO - Server is running on port: 3030 
-29.3.2024, 18:38:12 - INFO - server.js loaded... 
-29.3.2024, 18:38:12 - INFO - Server is running on port: 3030 
-29.3.2024, 18:38:24 - INFO - server.js loaded... 
-29.3.2024, 18:38:24 - INFO - Server is running on port: 3030 
-29.3.2024, 19:15:09 - ERROR - while finding toy 6606c12aa197988982cb50a7 | TypeError: dbService.getCollection(...).findOne is not a function 
-29.3.2024, 19:15:09 - ERROR - Failed to get toy | TypeError: dbService.getCollection(...).findOne is not a function 
-29.3.2024, 19:17:45 - INFO - Req was made | / 
-29.3.2024, 19:17:45 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 19:17:59 - ERROR - while finding toy 6606c12aa197988982cb50b3 | TypeError: dbService.getCollection(...).findOne is not a function 
-29.3.2024, 19:17:59 - ERROR - Failed to get toy | TypeError: dbService.getCollection(...).findOne is not a function 
-29.3.2024, 19:20:05 - INFO - server.js loaded... 
-29.3.2024, 19:20:05 - INFO - Server is running on port: 3030 
-29.3.2024, 19:20:09 - ERROR - while finding toy 6606c12aa197988982cb50b3 | TypeError: collection.findOne(...).toArray is not a function 
-29.3.2024, 19:20:09 - ERROR - Failed to get toy | TypeError: collection.findOne(...).toArray is not a function 
-29.3.2024, 19:23:38 - INFO - server.js loaded... 
-29.3.2024, 19:23:38 - INFO - Server is running on port: 3030 
-29.3.2024, 19:25:05 - INFO - server.js loaded... 
-29.3.2024, 19:25:05 - INFO - Server is running on port: 3030 
-29.3.2024, 19:40:30 - INFO - server.js loaded... 
-29.3.2024, 19:40:31 - INFO - Server is running on port: 3030 
-29.3.2024, 22:44:44 - INFO - server.js loaded... 
-29.3.2024, 22:44:44 - INFO - Server is running on port: 3030 
-29.3.2024, 22:44:58 - INFO - server.js loaded... 
-29.3.2024, 22:44:58 - INFO - Server is running on port: 3030 
-29.3.2024, 22:45:05 - INFO - Req was made | / 
-29.3.2024, 22:45:05 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 22:45:09 - INFO - Req was made | / 
-29.3.2024, 22:45:09 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 22:45:09 - INFO - Req was made | / 
-29.3.2024, 22:45:09 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 22:47:04 - INFO - Req was made | / 
-29.3.2024, 22:47:04 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 22:47:04 - INFO - Req was made | / 
-29.3.2024, 22:47:04 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 22:47:40 - DEBUG - auth.service - login with username: mashoosh 
-29.3.2024, 22:47:40 - ERROR - Failed to Login Error: Invalid username or password 
-29.3.2024, 23:00:21 - INFO - Req was made | / 
-29.3.2024, 23:00:21 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:00:21 - INFO - Req was made | / 
-29.3.2024, 23:00:21 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:00:24 - INFO - Req was made | / 
-29.3.2024, 23:00:24 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:00:26 - INFO - Req was made | / 
-29.3.2024, 23:00:26 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:00:27 - INFO - Req was made | / 
-29.3.2024, 23:00:27 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:00:59 - INFO - Req was made | / 
-29.3.2024, 23:00:59 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:00:59 - INFO - Req was made | / 
-29.3.2024, 23:00:59 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:01:06 - INFO - Req was made | / 
-29.3.2024, 23:01:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:10:47 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:10:47 - INFO - Req was made | / 
-29.3.2024, 23:10:47 - INFO - Req was made | / 
-29.3.2024, 23:10:47 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:10:48 - INFO - Req was made | / 
-29.3.2024, 23:10:48 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:15:42 - INFO - Req was made | / 
-29.3.2024, 23:15:42 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:23:24 - INFO - Req was made | / 
-29.3.2024, 23:23:24 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:23:25 - INFO - Req was made | / 
-29.3.2024, 23:23:25 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:25:44 - DEBUG - auth.service - login with username: manoon 
-29.3.2024, 23:25:44 - ERROR - Failed to Login Error: Invalid username or password 
-29.3.2024, 23:26:02 - DEBUG - auth.service - login with username: manoon 
-29.3.2024, 23:26:02 - ERROR - Failed to Login Error: Invalid username or password 
-29.3.2024, 23:27:43 - INFO - server.js loaded... 
-29.3.2024, 23:27:43 - INFO - Server is running on port: 3030 
-29.3.2024, 23:27:44 - DEBUG - auth.service - login with username: manoon 
-29.3.2024, 23:27:44 - ERROR - Failed to Login ReferenceError: alert is not defined 
-29.3.2024, 23:27:51 - INFO - server.js loaded... 
-29.3.2024, 23:27:51 - INFO - Server is running on port: 3030 
-29.3.2024, 23:27:55 - DEBUG - auth.service - login with username: manoon 
-29.3.2024, 23:27:55 - ERROR - Failed to Login Error: Invalid username or password 
-29.3.2024, 23:30:37 - INFO - Req was made | / 
-29.3.2024, 23:30:37 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:30:37 - INFO - Req was made | / 
-29.3.2024, 23:30:38 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:32:50 - INFO - Req was made | / 
-29.3.2024, 23:32:50 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:32:51 - INFO - Req was made | / 
-29.3.2024, 23:32:51 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:32:57 - DEBUG - auth.service - login with username: manoon 
-29.3.2024, 23:32:57 - ERROR - Failed to Login Error: Invalid username or password 
-29.3.2024, 23:34:43 - INFO - server.js loaded... 
-29.3.2024, 23:34:43 - INFO - Server is running on port: 3030 
-29.3.2024, 23:39:46 - INFO - server.js loaded... 
-29.3.2024, 23:39:46 - INFO - Server is running on port: 3030 
-29.3.2024, 23:39:49 - DEBUG - auth.service - login with username: manoon 
-29.3.2024, 23:39:49 - ERROR - Failed to Login Error: Invalid username or password from there 
-29.3.2024, 23:40:44 - INFO - server.js loaded... 
-29.3.2024, 23:40:44 - INFO - Server is running on port: 3030 
-29.3.2024, 23:42:27 - INFO - server.js loaded... 
-29.3.2024, 23:42:27 - INFO - Server is running on port: 3030 
-29.3.2024, 23:51:45 - DEBUG - auth.service - signup with username: Shovals, fullname: Shoval Sabag 
-29.3.2024, 23:51:45 - DEBUG - auth.route - new account created: {"username":"Shovals","password":"$2b$10$/yCYq4SoKgR8.Vgkdv3mMeRfCmjKwZdyLnl4cLxK5UmQngCYKAX6i","fullname":"Shoval Sabag","score":0,"_id":"660729e1dd0b872c7e055740"} 
-29.3.2024, 23:51:45 - DEBUG - auth.service - login with username: Shovals 
-29.3.2024, 23:52:42 - INFO - server.js loaded... 
-29.3.2024, 23:52:42 - INFO - Server is running on port: 3030 
-29.3.2024, 23:53:04 - DEBUG - auth.service - signup with username: Shovals, fullname: Shoval Sabag 
-29.3.2024, 23:53:04 - DEBUG - auth.route - new account created: {"username":"Shovals","password":"$2b$10$5B8T3d6IIJU12XX3n2FirOCSBZ0IAtjwWG3m0VvJ6rtisoq5psHHm","fullname":"Shoval Sabag","score":0,"_id":"66072a30225bb52cfe94dd5b"} 
-29.3.2024, 23:53:04 - DEBUG - auth.service - login with username: Shovals 
-29.3.2024, 23:53:31 - INFO - server.js loaded... 
-29.3.2024, 23:53:31 - INFO - Server is running on port: 3030 
-29.3.2024, 23:53:40 - INFO - server.js loaded... 
-29.3.2024, 23:53:40 - INFO - Server is running on port: 3030 
-29.3.2024, 23:53:54 - DEBUG - auth.service - signup with username: Shovals, fullname: Shoval Sabag 
-29.3.2024, 23:53:54 - DEBUG - auth.route - new account created: {"username":"Shovals","password":"$2b$10$dPoqPmyxltqu6U2Me2odRuBV9RMw11hGLUZf7r17PpcIHxSEFoApe","fullname":"Shoval Sabag","score":0,"_id":"66072a620977f92d66f7b9ff"} 
-29.3.2024, 23:53:54 - DEBUG - auth.service - login with username: Shovals 
-29.3.2024, 23:55:05 - INFO - server.js loaded... 
-29.3.2024, 23:55:05 - INFO - Server is running on port: 3030 
-29.3.2024, 23:55:27 - INFO - server.js loaded... 
-29.3.2024, 23:55:27 - INFO - Server is running on port: 3030 
-29.3.2024, 23:55:57 - DEBUG - auth.service - signup with username: Shovalsab, fullname: Shoval Sabag 
-29.3.2024, 23:55:57 - DEBUG - auth.route - new account created: {"username":"Shovalsab","password":"$2b$10$dv/RqfoMlWBBjNxjoc8MJO.zcFKczi8RgT95Vt0OHgx78Ef3bg2Wq","fullname":"Shoval Sabag","isAdmin":true,"_id":"66072add0392d42df27d4017"} 
-29.3.2024, 23:55:57 - DEBUG - auth.service - login with username: Shovalsab 
-29.3.2024, 23:56:36 - DEBUG - auth.service - signup with username: manoon, fullname: Manoon Manooni 
-29.3.2024, 23:56:36 - ERROR - Failed to signup Error: Missing details 
-29.3.2024, 23:57:52 - INFO - Req was made | / 
-29.3.2024, 23:57:52 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-29.3.2024, 23:57:52 - INFO - Req was made | / 
-29.3.2024, 23:57:52 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:04:36 - DEBUG - auth.service - signup with username: manoon, fullname: Manoon Manooni 
-30.3.2024, 0:04:36 - ERROR - Failed to signup Error: Missing details 
-30.3.2024, 0:07:28 - INFO - Req was made | / 
-30.3.2024, 0:07:28 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:10:00 - INFO - Req was made | / 
-30.3.2024, 0:10:00 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:10:36 - INFO - server.js loaded... 
-30.3.2024, 0:10:36 - INFO - Server is running on port: 3030 
-30.3.2024, 0:12:35 - DEBUG - auth.service - signup with username: manoon, fullname: Manoon Manooni 
-30.3.2024, 0:12:35 - ERROR - Failed to signup Error: Missing details 
-30.3.2024, 0:15:45 - INFO - server.js loaded... 
-30.3.2024, 0:15:45 - INFO - Server is running on port: 3030 
-30.3.2024, 0:15:49 - DEBUG - auth.service - signup with username: manoon, fullname: Manoon Manooni 
-30.3.2024, 0:15:49 - DEBUG - auth.route - new account created: {"username":"manoon","password":"$2b$10$klYoZSbIAsB13rM1DSEAauTTSo6kRn4DAFsqr2s55z8CLvWsi8Hkm","fullname":"Manoon Manooni","isAdmin":false,"_id":"66072f8547d0922f147edf6a"} 
-30.3.2024, 0:15:49 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 0:16:13 - DEBUG - auth.service - signup with username: pooki, fullname: Pooki Pikpooki 
-30.3.2024, 0:16:13 - DEBUG - auth.route - new account created: {"username":"pooki","password":"$2b$10$gLMR4crZmcEFvtM1vx8N6uIA2j4tTj6hTPJJWCwI0WzKkuprclOPG","fullname":"Pooki Pikpooki","isAdmin":false,"_id":"66072f9d47d0922f147edf6b"} 
-30.3.2024, 0:16:13 - DEBUG - auth.service - login with username: pooki 
-30.3.2024, 0:18:06 - INFO - Req was made | / 
-30.3.2024, 0:18:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:18:06 - INFO - Req was made | / 
-30.3.2024, 0:18:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:18:19 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 0:18:19 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 0:20:47 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 0:20:47 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 0:20:51 - INFO - Req was made | / 
-30.3.2024, 0:20:51 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:20:51 - INFO - Req was made | / 
-30.3.2024, 0:20:51 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:23:37 - INFO - Req was made | / 
-30.3.2024, 0:23:37 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:23:37 - INFO - Req was made | / 
-30.3.2024, 0:23:37 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:26:22 - INFO - Req was made | / 
-30.3.2024, 0:26:22 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:26:22 - INFO - Req was made | / 
-30.3.2024, 0:26:22 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:26:27 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 0:26:27 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 0:26:30 - INFO - Req was made | / 
-30.3.2024, 0:26:30 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:26:30 - INFO - Req was made | / 
-30.3.2024, 0:26:30 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:29:59 - INFO - Req was made | / 
-30.3.2024, 0:29:59 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:29:59 - INFO - Req was made | / 
-30.3.2024, 0:29:59 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:30:40 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 0:30:41 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 0:41:13 - INFO - Req was made | / 
-30.3.2024, 0:41:13 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:41:14 - INFO - Req was made | / 
-30.3.2024, 0:41:14 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:41:33 - INFO - Req was made | / 
-30.3.2024, 0:41:33 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:41:33 - INFO - Req was made | / 
-30.3.2024, 0:41:33 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:41:39 - INFO - Req was made | / 
-30.3.2024, 0:41:39 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:41:40 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 0:41:40 - INFO - Req was made | / 
-30.3.2024, 13:04:33 - INFO - Req was made | / 
-30.3.2024, 13:04:33 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:04:33 - INFO - Req was made | / 
-30.3.2024, 13:04:33 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:09:27 - INFO - Req was made | / 
-30.3.2024, 13:09:27 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:09:28 - INFO - Req was made | / 
-30.3.2024, 13:09:28 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:30:06 - INFO - Req was made | / 
-30.3.2024, 13:30:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:30:08 - INFO - Req was made | / 
-30.3.2024, 13:30:08 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:30:28 - INFO - Req was made | / 
-30.3.2024, 13:30:28 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:30:29 - INFO - Req was made | / 
-30.3.2024, 13:30:29 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:30:34 - INFO - Req was made | / 
-30.3.2024, 13:30:34 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:30:36 - INFO - Req was made | / 
-30.3.2024, 13:30:36 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:33:24 - INFO - Req was made | / 
-30.3.2024, 13:33:24 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:33:25 - INFO - Req was made | / 
-30.3.2024, 13:33:25 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:37:43 - INFO - Req was made | / 
-30.3.2024, 13:37:43 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:37:44 - INFO - Req was made | / 
-30.3.2024, 13:37:44 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:39:42 - INFO - Req was made | / 
-30.3.2024, 13:39:42 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:39:43 - INFO - Req was made | / 
-30.3.2024, 13:39:43 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:40:50 - INFO - Req was made | / 
-30.3.2024, 13:40:50 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:40:50 - INFO - Req was made | / 
-30.3.2024, 13:40:50 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:46:22 - INFO - Req was made | / 
-30.3.2024, 13:46:22 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:46:23 - INFO - Req was made | / 
-30.3.2024, 13:46:23 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:55:49 - INFO - Req was made | / 
-30.3.2024, 13:55:49 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:55:50 - INFO - Req was made | / 
-30.3.2024, 13:55:50 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:57:17 - INFO - server.js loaded... 
-30.3.2024, 13:57:17 - INFO - Server is running on port: 3030 
-30.3.2024, 13:57:23 - INFO - Req was made | / 
-30.3.2024, 13:57:23 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:57:23 - INFO - Req was made | / 
-30.3.2024, 13:57:23 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:57:27 - INFO - Req was made | / 
-30.3.2024, 13:57:27 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 13:57:37 - INFO - Req was made | / 
-30.3.2024, 13:57:37 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:57:57 - INFO - Req was made | / 
-30.3.2024, 13:57:57 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 13:57:59 - INFO - Req was made | / 
-30.3.2024, 13:57:59 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 13:58:36 - INFO - Req was made | / 
-30.3.2024, 13:58:36 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":"name"} 
-30.3.2024, 13:58:44 - INFO - Req was made | / 
-30.3.2024, 13:58:44 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":"price"} 
-30.3.2024, 13:58:52 - INFO - Req was made | / 
-30.3.2024, 13:58:52 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:02:34 - INFO - server.js loaded... 
-30.3.2024, 14:02:34 - INFO - Server is running on port: 3030 
-30.3.2024, 14:04:54 - INFO - server.js loaded... 
-30.3.2024, 14:04:54 - INFO - Server is running on port: 3030 
-30.3.2024, 14:05:01 - INFO - Req was made | / 
-30.3.2024, 14:05:01 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:05:01 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:05:01 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:05:06 - INFO - Req was made | / 
-30.3.2024, 14:05:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:12:18 - INFO - Req was made | / 
-30.3.2024, 14:12:18 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:12:27 - INFO - Req was made | / 
-30.3.2024, 14:12:27 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:13:59 - INFO - Req was made | / 
-30.3.2024, 14:13:59 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:14:09 - INFO - Req was made | / 
-30.3.2024, 14:14:09 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:14:09 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:14:09 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:14:15 - INFO - Req was made | / 
-30.3.2024, 14:14:15 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:14:43 - INFO - Req was made | / 
-30.3.2024, 14:14:43 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:15:08 - INFO - Req was made | / 
-30.3.2024, 14:15:08 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:15:08 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:15:08 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:15:09 - INFO - Req was made | / 
-30.3.2024, 14:15:09 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:15:16 - INFO - Req was made | / 
-30.3.2024, 14:15:16 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:15:16 - INFO - Req was made | / 
-30.3.2024, 14:15:16 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:15:19 - INFO - Req was made | / 
-30.3.2024, 14:15:19 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:15:19 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:15:19 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true}] 
-30.3.2024, 14:15:21 - INFO - Req was made | / 
-30.3.2024, 14:15:21 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:16:16 - INFO - server.js loaded... 
-30.3.2024, 14:16:16 - INFO - Server is running on port: 3030 
-30.3.2024, 14:16:55 - INFO - server.js loaded... 
-30.3.2024, 14:16:55 - INFO - Server is running on port: 3030 
-30.3.2024, 14:17:25 - INFO - Req was made | / 
-30.3.2024, 14:17:25 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:17:25 - INFO - Req was made | / 
-30.3.2024, 14:17:25 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:17:26 - INFO - Req was made | / 
-30.3.2024, 14:17:26 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:17:26 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a7","name":"Starry Nights - Lego","price":100,"labels":["Art","Lego"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a8","name":"Chess by Vanilla JS","price":100,"labels":["Art","Lego","Box game"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ab","name":"Chess Board - Vanilla JS","price":10,"labels":["Box game","Art","Computer Game"],"createdAt":1707775200000,"inStock":false},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b0","name":"Jade from Bratz - Bratz","price":60,"labels":["Doll","Outdoor"],"createdAt":1690578000000,"inStock":false},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b4","name":"Talking Kashoosh - Shoval's house","price":1000000,"labels":["Art","Battery Powered","Baby"],"inStock":false,"createdAt":1711540457674}] 
-30.3.2024, 14:17:26 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a7","name":"Starry Nights - Lego","price":100,"labels":["Art","Lego"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a8","name":"Chess by Vanilla JS","price":100,"labels":["Art","Lego","Box game"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ab","name":"Chess Board - Vanilla JS","price":10,"labels":["Box game","Art","Computer Game"],"createdAt":1707775200000,"inStock":false},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b0","name":"Jade from Bratz - Bratz","price":60,"labels":["Doll","Outdoor"],"createdAt":1690578000000,"inStock":false},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b4","name":"Talking Kashoosh - Shoval's house","price":1000000,"labels":["Art","Battery Powered","Baby"],"inStock":false,"createdAt":1711540457674}] 
-30.3.2024, 14:17:29 - INFO - Req was made | / 
-30.3.2024, 14:17:29 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:17:30 - INFO - Req was made | / 
-30.3.2024, 14:17:30 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:17:30 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a7","name":"Starry Nights - Lego","price":100,"labels":["Art","Lego"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a8","name":"Chess by Vanilla JS","price":100,"labels":["Art","Lego","Box game"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ab","name":"Chess Board - Vanilla JS","price":10,"labels":["Box game","Art","Computer Game"],"createdAt":1707775200000,"inStock":false},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b0","name":"Jade from Bratz - Bratz","price":60,"labels":["Doll","Outdoor"],"createdAt":1690578000000,"inStock":false},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b4","name":"Talking Kashoosh - Shoval's house","price":1000000,"labels":["Art","Battery Powered","Baby"],"inStock":false,"createdAt":1711540457674}] 
-30.3.2024, 14:17:30 - DEBUG - toys | [{"_id":"6606c12aa197988982cb50a7","name":"Starry Nights - Lego","price":100,"labels":["Art","Lego"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a8","name":"Chess by Vanilla JS","price":100,"labels":["Art","Lego","Box game"],"createdAt":1687467600000,"inStock":false},{"_id":"6606c12aa197988982cb50a9","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50aa","name":"Harry Potter - Lego","price":100,"labels":["Art","Lego"],"createdAt":1666472400000,"inStock":true},{"_id":"6606c12aa197988982cb50ab","name":"Chess Board - Vanilla JS","price":10,"labels":["Box game","Art","Computer Game"],"createdAt":1707775200000,"inStock":false},{"_id":"6606c12aa197988982cb50ac","name":"Miss Bug - React","price":10,"labels":["Art","Computer Game"],"createdAt":1710885600000,"inStock":true},{"_id":"6606c12aa197988982cb50ad","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50ae","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50af","name":"Robot - RoboHash","price":50,"labels":["On wheels","Art","Battery Powered"],"createdAt":1711317600000,"inStock":true},{"_id":"6606c12aa197988982cb50b0","name":"Jade from Bratz - Bratz","price":60,"labels":["Doll","Outdoor"],"createdAt":1690578000000,"inStock":false},{"_id":"6606c12aa197988982cb50b1","name":"Sarit Hadad - Disney","price":60,"labels":["Doll","Battery Powered"],"createdAt":1095627600000,"inStock":true},{"_id":"6606c12aa197988982cb50b2","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b3","name":"Checkers for Yom Kippur","price":14,"labels":["Box game","Art"],"createdAt":322351200000,"inStock":true},{"_id":"6606c12aa197988982cb50b4","name":"Talking Kashoosh - Shoval's house","price":1000000,"labels":["Art","Battery Powered","Baby"],"inStock":false,"createdAt":1711540457674}] 
-30.3.2024, 14:17:48 - INFO - server.js loaded... 
-30.3.2024, 14:17:48 - INFO - Server is running on port: 3030 
-30.3.2024, 14:18:06 - INFO - server.js loaded... 
-30.3.2024, 14:18:06 - INFO - Server is running on port: 3030 
-30.3.2024, 14:18:10 - INFO - Req was made | / 
-30.3.2024, 14:18:10 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:18:10 - INFO - Req was made | / 
-30.3.2024, 14:18:10 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:18:46 - INFO - server.js loaded... 
-30.3.2024, 14:18:46 - INFO - Server is running on port: 3030 
-30.3.2024, 14:18:53 - INFO - Req was made | / 
-30.3.2024, 14:18:53 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:19:01 - INFO - Req was made | / 
-30.3.2024, 14:19:01 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:19:03 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:19:03 - INFO - Req was made | / 
-30.3.2024, 14:19:06 - INFO - Req was made | / 
-30.3.2024, 14:19:06 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:21:14 - INFO - Req was made | / 
-30.3.2024, 14:21:14 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:21:14 - INFO - Req was made | / 
-30.3.2024, 14:21:14 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:21:16 - INFO - Req was made | / 
-30.3.2024, 14:21:16 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:25:14 - INFO - Req was made | / 
-30.3.2024, 14:25:14 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:25:14 - INFO - Req was made | / 
-30.3.2024, 14:25:14 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:26:22 - INFO - Req was made | / 
-30.3.2024, 14:26:22 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:26:23 - INFO - Req was made | / 
-30.3.2024, 14:26:23 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:26:27 - INFO - Req was made | / 
-30.3.2024, 14:26:27 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:26:34 - INFO - Req was made | / 
-30.3.2024, 14:26:34 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:29:12 - INFO - Req was made | / 
-30.3.2024, 14:29:12 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:29:13 - INFO - Req was made | / 
-30.3.2024, 14:29:13 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:30:36 - INFO - Req was made | / 
-30.3.2024, 14:30:36 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:30:36 - INFO - Req was made | / 
-30.3.2024, 14:30:36 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:30:38 - INFO - Req was made | / 
-30.3.2024, 14:30:38 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:30:51 - INFO - Req was made | / 
-30.3.2024, 14:30:51 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:30:56 - INFO - Req was made | / 
-30.3.2024, 14:30:56 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:31:52 - INFO - Req was made | / 
-30.3.2024, 14:31:52 - DEBUG - Loading Toys | {"name":"","inStock":"true","sortBy":""} 
-30.3.2024, 14:32:18 - INFO - Req was made | / 
-30.3.2024, 14:32:18 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:32:18 - INFO - Req was made | / 
-30.3.2024, 14:32:18 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:32:21 - INFO - Req was made | / 
-30.3.2024, 14:32:21 - DEBUG - Loading Toys | {"name":"","inStock":"available","sortBy":""} 
-30.3.2024, 14:32:25 - INFO - Req was made | / 
-30.3.2024, 14:32:25 - DEBUG - Loading Toys | {"name":"","inStock":"gone","sortBy":""} 
-30.3.2024, 14:32:27 - INFO - Req was made | / 
-30.3.2024, 14:32:27 - DEBUG - Loading Toys | {"name":"","inStock":"available","sortBy":""} 
-30.3.2024, 14:32:33 - INFO - Req was made | / 
-30.3.2024, 14:32:33 - DEBUG - Loading Toys | {"name":"","inStock":"gone","sortBy":""} 
-30.3.2024, 14:33:10 - INFO - Req was made | / 
-30.3.2024, 14:33:10 - DEBUG - Loading Toys | {"name":"","inStock":"gone","sortBy":""} 
-30.3.2024, 14:35:15 - INFO - server.js loaded... 
-30.3.2024, 14:35:15 - INFO - Server is running on port: 3030 
-30.3.2024, 14:35:18 - INFO - Req was made | / 
-30.3.2024, 14:35:18 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:35:18 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:35:18 - INFO - Req was made | / 
-30.3.2024, 14:35:18 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:35:18 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:35:42 - INFO - Req was made | / 
-30.3.2024, 14:35:42 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:35:42 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:35:49 - INFO - Req was made | / 
-30.3.2024, 14:35:49 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:35:49 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:35:49 - INFO - Req was made | / 
-30.3.2024, 14:35:49 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:35:49 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:37:33 - INFO - server.js loaded... 
-30.3.2024, 14:37:33 - INFO - Server is running on port: 3030 
-30.3.2024, 14:37:41 - INFO - Req was made | / 
-30.3.2024, 14:37:41 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:37:41 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:37:41 - INFO - Req was made | / 
-30.3.2024, 14:37:41 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:37:41 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:38:39 - INFO - Req was made | / 
-30.3.2024, 14:38:39 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":""} 
-30.3.2024, 14:38:39 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:39:48 - INFO - Req was made | / 
-30.3.2024, 14:39:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:40:57 - INFO - Req was made | / 
-30.3.2024, 14:40:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:40:57 - INFO - Req was made | / 
-30.3.2024, 14:40:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:41:01 - INFO - Req was made | / 
-30.3.2024, 14:41:01 - DEBUG - Loading Toys | {"name":"","inStock":"available","sortBy":""} 
-30.3.2024, 14:41:01 - DEBUG - {"$eq":true} | criteria in stock 
-30.3.2024, 14:41:08 - INFO - Req was made | / 
-30.3.2024, 14:41:08 - DEBUG - Loading Toys | {"name":"","inStock":"gone","sortBy":""} 
-30.3.2024, 14:41:08 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:41:14 - INFO - Req was made | / 
-30.3.2024, 14:41:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:41:19 - INFO - Req was made | / 
-30.3.2024, 14:41:19 - DEBUG - Loading Toys | {"name":"","inStock":"available","sortBy":""} 
-30.3.2024, 14:41:19 - DEBUG - {"$eq":true} | criteria in stock 
-30.3.2024, 14:41:21 - INFO - Req was made | / 
-30.3.2024, 14:41:21 - DEBUG - Loading Toys | {"name":"","inStock":"gone","sortBy":""} 
-30.3.2024, 14:41:21 - DEBUG - {"$eq":false} | criteria in stock 
-30.3.2024, 14:41:24 - INFO - Req was made | / 
-30.3.2024, 14:41:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:41:27 - INFO - Req was made | / 
-30.3.2024, 14:41:27 - DEBUG - Loading Toys | {"name":"har","inStock":"all","sortBy":""} 
-30.3.2024, 14:41:29 - INFO - Req was made | / 
-30.3.2024, 14:41:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:41:31 - INFO - Req was made | / 
-30.3.2024, 14:41:31 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"name"} 
-30.3.2024, 14:43:05 - INFO - Req was made | / 
-30.3.2024, 14:43:05 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:43:08 - INFO - Req was made | / 
-30.3.2024, 14:43:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:43:08 - INFO - Req was made | / 
-30.3.2024, 14:43:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:44:12 - INFO - Req was made | / 
-30.3.2024, 14:44:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:44:12 - INFO - Req was made | / 
-30.3.2024, 14:44:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:44:14 - INFO - Req was made | / 
-30.3.2024, 14:44:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"name"} 
-30.3.2024, 14:44:24 - INFO - Req was made | / 
-30.3.2024, 14:44:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"price"} 
-30.3.2024, 14:45:46 - INFO - server.js loaded... 
-30.3.2024, 14:45:46 - INFO - Server is running on port: 3030 
-30.3.2024, 14:45:49 - INFO - Req was made | / 
-30.3.2024, 14:45:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"name"} 
-30.3.2024, 14:46:52 - INFO - server.js loaded... 
-30.3.2024, 14:46:52 - INFO - Server is running on port: 3030 
-30.3.2024, 14:46:55 - INFO - Req was made | / 
-30.3.2024, 14:46:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:46:56 - INFO - Req was made | / 
-30.3.2024, 14:46:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 14:46:58 - INFO - Req was made | / 
-30.3.2024, 14:46:58 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"name"} 
-30.3.2024, 14:47:01 - INFO - Req was made | / 
-30.3.2024, 14:47:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"price"} 
-30.3.2024, 14:47:04 - INFO - Req was made | / 
-30.3.2024, 14:47:04 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"createdAt"} 
-30.3.2024, 15:19:33 - INFO - server.js loaded... 
-30.3.2024, 15:19:33 - INFO - Server is running on port: 3030 
-30.3.2024, 15:19:42 - ERROR - cannot remove toy 6606c12aa197988982cb50b2 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:19:42 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:19:45 - ERROR - cannot remove toy 6606c12aa197988982cb50b2 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:19:45 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:21:29 - INFO - Req was made | / 
-30.3.2024, 15:21:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:21:29 - INFO - Req was made | / 
-30.3.2024, 15:21:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:32:39 - INFO - server.js loaded... 
-30.3.2024, 15:32:39 - INFO - Server is running on port: 3030 
-30.3.2024, 15:32:45 - INFO - server.js loaded... 
-30.3.2024, 15:32:45 - INFO - Server is running on port: 3030 
-30.3.2024, 15:34:59 - INFO - server.js loaded... 
-30.3.2024, 15:34:59 - INFO - Server is running on port: 3030 
-30.3.2024, 15:35:01 - INFO - Req was made | / 
-30.3.2024, 15:35:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:35:10 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:35:10 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:36:01 - INFO - Req was made | / 
-30.3.2024, 15:36:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:36:56 - INFO - Req was made | / 
-30.3.2024, 15:36:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:36:56 - INFO - Req was made | / 
-30.3.2024, 15:36:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:37:02 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:37:02 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:39:56 - INFO - server.js loaded... 
-30.3.2024, 15:39:56 - INFO - Server is running on port: 3030 
-30.3.2024, 15:39:58 - INFO - server.js loaded... 
-30.3.2024, 15:39:58 - INFO - Server is running on port: 3030 
-30.3.2024, 15:44:04 - INFO - Req was made | / 
-30.3.2024, 15:44:04 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:44:07 - INFO - Req was made | / 
-30.3.2024, 15:44:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:46:27 - INFO - server.js loaded... 
-30.3.2024, 15:46:27 - INFO - Server is running on port: 3030 
-30.3.2024, 15:46:28 - INFO - Req was made | / 
-30.3.2024, 15:46:28 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:46:29 - INFO - Req was made | / 
-30.3.2024, 15:46:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:46:33 - INFO - Req was made | / 
-30.3.2024, 15:46:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:46:43 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).find is not a function 
-30.3.2024, 15:46:43 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).find is not a function 
-30.3.2024, 15:50:31 - INFO - Req was made | / 
-30.3.2024, 15:50:31 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:51:40 - INFO - Req was made | / 
-30.3.2024, 15:51:40 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 15:51:45 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).find is not a function 
-30.3.2024, 15:51:45 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).find is not a function 
-30.3.2024, 15:52:41 - INFO - server.js loaded... 
-30.3.2024, 15:52:41 - INFO - Server is running on port: 3030 
-30.3.2024, 15:53:24 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:53:24 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:55:07 - INFO - server.js loaded... 
-30.3.2024, 15:55:07 - INFO - Server is running on port: 3030 
-30.3.2024, 15:55:14 - DEBUG - 660803c9ad0a9648ddbd6b05 
-30.3.2024, 15:55:14 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:55:14 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 15:57:52 - INFO - server.js loaded... 
-30.3.2024, 15:57:52 - INFO - Server is running on port: 3030 
-30.3.2024, 15:58:04 - WARN - Manoon Manooniattempted to perform admin action 
-30.3.2024, 16:07:47 - INFO - server.js loaded... 
-30.3.2024, 16:07:47 - INFO - Server is running on port: 3030 
-30.3.2024, 16:08:00 - INFO - Req was made | / 
-30.3.2024, 16:08:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 16:08:00 - INFO - Req was made | / 
-30.3.2024, 16:08:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 16:08:03 - WARN - Manoon Manooniattempted to perform admin action 
-30.3.2024, 16:17:12 - INFO - Req was made | / 
-30.3.2024, 16:17:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 16:17:12 - INFO - Req was made | / 
-30.3.2024, 16:17:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 16:21:48 - INFO - server.js loaded... 
-30.3.2024, 16:21:48 - INFO - Server is running on port: 3030 
-30.3.2024, 16:33:36 - INFO - server.js loaded... 
-30.3.2024, 16:33:36 - INFO - Server is running on port: 3030 
-30.3.2024, 16:35:01 - INFO - Req was made | / 
-30.3.2024, 16:35:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 16:35:26 - INFO - Req was made | / 
-30.3.2024, 16:35:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 16:41:57 - INFO - server.js loaded... 
-30.3.2024, 16:41:58 - INFO - Server is running on port: 3030 
-30.3.2024, 17:10:48 - INFO - server.js loaded... 
-30.3.2024, 17:10:48 - INFO - Server is running on port: 3030 
-30.3.2024, 17:10:53 - INFO - server.js loaded... 
-30.3.2024, 17:10:53 - INFO - Server is running on port: 3030 
-30.3.2024, 17:16:06 - INFO - server.js loaded... 
-30.3.2024, 17:16:06 - INFO - Server is running on port: 3030 
-30.3.2024, 17:18:14 - INFO - server.js loaded... 
-30.3.2024, 17:18:14 - INFO - Server is running on port: 3030 
-30.3.2024, 17:30:25 - INFO - server.js loaded... 
-30.3.2024, 17:30:25 - INFO - Server is running on port: 3030 
-30.3.2024, 17:34:39 - INFO - server.js loaded... 
-30.3.2024, 17:34:39 - INFO - Server is running on port: 3030 
-30.3.2024, 17:38:46 - INFO - server.js loaded... 
-30.3.2024, 17:38:46 - INFO - Server is running on port: 3030 
-30.3.2024, 17:38:48 - INFO - Req was made | / 
-30.3.2024, 17:38:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:38:49 - INFO - Req was made | / 
-30.3.2024, 17:38:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:39:07 - INFO - Req was made | / 
-30.3.2024, 17:39:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:41:05 - INFO - Req was made | / 
-30.3.2024, 17:41:05 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:41:05 - INFO - Req was made | / 
-30.3.2024, 17:41:05 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:46:17 - INFO - Req was made | / 
-30.3.2024, 17:46:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:46:17 - INFO - Req was made | / 
-30.3.2024, 17:46:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 17:46:34 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 17:46:34 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 17:48:08 - DEBUG - auth.service - login with username: kashoosh 
-30.3.2024, 17:48:08 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') 
-30.3.2024, 17:51:28 - DEBUG - auth.service - login with username: kashoosh 
-30.3.2024, 17:51:28 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') 
-30.3.2024, 17:54:32 - DEBUG - auth.service - login with username: pooki 
-30.3.2024, 17:54:32 - INFO - User login:  | {"_id":"66072f9d47d0922f147edf6b","username":"pooki","fullname":"Pooki Pikpooki","isAdmin":false} 
-30.3.2024, 17:55:27 - INFO - server.js loaded... 
-30.3.2024, 17:55:27 - INFO - Server is running on port: 3030 
-30.3.2024, 17:55:34 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 17:55:34 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 17:55:44 - INFO - User logged out 
-30.3.2024, 17:55:51 - DEBUG - auth.service - login with username: kashoosh 
-30.3.2024, 17:55:51 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') 
-30.3.2024, 18:00:34 - INFO - server.js loaded... 
-30.3.2024, 18:00:34 - INFO - Server is running on port: 3030 
-30.3.2024, 18:00:37 - DEBUG - auth.service - login with username: kashoosh 
-30.3.2024, 18:00:37 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') 
-30.3.2024, 18:01:43 - INFO - server.js loaded... 
-30.3.2024, 18:01:43 - INFO - Server is running on port: 3030 
-30.3.2024, 18:01:46 - DEBUG - auth.service - login with username: kashoosh 
-30.3.2024, 18:01:46 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') 
-30.3.2024, 18:02:02 - INFO - server.js loaded... 
-30.3.2024, 18:02:02 - INFO - Server is running on port: 3030 
-30.3.2024, 18:03:33 - INFO - server.js loaded... 
-30.3.2024, 18:03:33 - INFO - Server is running on port: 3030 
-30.3.2024, 18:04:22 - INFO - server.js loaded... 
-30.3.2024, 18:04:22 - INFO - Server is running on port: 3030 
-30.3.2024, 18:05:52 - DEBUG - auth.service - login with username: Shovalsab 
-30.3.2024, 18:05:52 - ERROR - Failed to Login Error: Invalid username or password 
-30.3.2024, 18:05:56 - DEBUG - auth.service - login with username: Shovalsab 
-30.3.2024, 18:05:56 - ERROR - Failed to Login Error: Invalid username or password 
-30.3.2024, 18:06:01 - DEBUG - auth.service - login with username: Shovalsab 
-30.3.2024, 18:06:01 - ERROR - Failed to Login Error: Invalid username or password 
-30.3.2024, 18:08:57 - DEBUG - auth.service - signup with username: shovalsab, fullname: Shoval Sab 
-30.3.2024, 18:08:58 - DEBUG - auth.route - new account created: {"username":"shovalsab","password":"$2b$10$oHeqHF56zcfbeJAoeKyezuNq4Qa52hOTWSqDxwQuEPafGZvGn4Bbq","fullname":"Shoval Sab","isAdmin":false,"_id":"66082b0a611ce75b0d901fe8"} 
-30.3.2024, 18:08:58 - DEBUG - auth.service - login with username: shovalsab 
-30.3.2024, 18:12:02 - INFO - server.js loaded... 
-30.3.2024, 18:12:02 - INFO - Server is running on port: 3030 
-30.3.2024, 18:12:52 - INFO - User logged out 
-30.3.2024, 18:13:12 - DEBUG - auth.service - signup with username: shovalsab, fullname: Shoval Sab 
-30.3.2024, 18:13:12 - DEBUG - auth.route - new account created: {"username":"shovalsab","password":"$2b$10$HtM3IfxW0nqOrhOhxgrTF.PrUX.r/dSQ2gNtLPDyKF2vUgmZGutle","fullname":"Shoval Sab","isAdmin":false,"_id":"66082c08e7e81b5b90195a02"} 
-30.3.2024, 18:13:12 - DEBUG - auth.service - login with username: shovalsab 
-30.3.2024, 18:13:37 - WARN - Shoval Sabattempted to perform admin action 
-30.3.2024, 18:14:04 - WARN - Shoval Sabattempted to perform admin action 
-30.3.2024, 18:17:34 - INFO - server.js loaded... 
-30.3.2024, 18:17:34 - INFO - Server is running on port: 3030 
-30.3.2024, 18:17:46 - INFO - server.js loaded... 
-30.3.2024, 18:17:46 - INFO - Server is running on port: 3030 
-30.3.2024, 18:17:59 - INFO - server.js loaded... 
-30.3.2024, 18:17:59 - INFO - Server is running on port: 3030 
-30.3.2024, 18:18:02 - INFO - Req was made | / 
-30.3.2024, 18:18:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:18:02 - INFO - Req was made | / 
-30.3.2024, 18:18:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:18:14 - INFO - Req was made | / 
-30.3.2024, 18:18:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:18:14 - INFO - Req was made | / 
-30.3.2024, 18:18:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:18:34 - INFO - Req was made | / 
-30.3.2024, 18:18:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:18:35 - INFO - Req was made | / 
-30.3.2024, 18:18:35 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:18:53 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 18:18:53 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 18:18:57 - INFO - User logged out 
-30.3.2024, 18:19:04 - DEBUG - auth.service - login with username: shovalsab 
-30.3.2024, 18:19:04 - INFO - User login:  | {"_id":"66082c08e7e81b5b90195a02","username":"shovalsab","fullname":"Shoval Sab","isAdmin":true} 
-30.3.2024, 18:19:12 - DEBUG - 660803c9ad0a9648ddbd6b05 
-30.3.2024, 18:19:12 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 18:19:12 - ERROR - Failed to remove toy | TypeError: dbService.getCollection(...).deleteOne is not a function 
-30.3.2024, 18:22:40 - INFO - server.js loaded... 
-30.3.2024, 18:22:40 - INFO - Server is running on port: 3030 
-30.3.2024, 18:22:42 - DEBUG - 660803c9ad0a9648ddbd6b05 
-30.3.2024, 18:22:42 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | TypeError: collection.deleteOne is not a function 
-30.3.2024, 18:22:42 - ERROR - Failed to remove toy | TypeError: collection.deleteOne is not a function 
-30.3.2024, 18:24:44 - INFO - server.js loaded... 
-30.3.2024, 18:24:44 - INFO - Server is running on port: 3030 
-30.3.2024, 18:24:54 - INFO - Req was made | / 
-30.3.2024, 18:24:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:24:54 - INFO - Req was made | / 
-30.3.2024, 18:24:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:24:58 - DEBUG - 660803c9ad0a9648ddbd6b05 
-30.3.2024, 18:24:58 - ERROR - cannot remove toy 660803c9ad0a9648ddbd6b05 | ReferenceError: result is not defined 
-30.3.2024, 18:24:58 - ERROR - Failed to remove toy | ReferenceError: result is not defined 
-30.3.2024, 18:29:08 - INFO - server.js loaded... 
-30.3.2024, 18:29:08 - INFO - Server is running on port: 3030 
-30.3.2024, 18:29:39 - ERROR - Failed to add toy | TypeError: Cannot read properties of undefined (reading 'fullname') 
-30.3.2024, 18:34:05 - INFO - server.js loaded... 
-30.3.2024, 18:34:05 - INFO - Server is running on port: 3030 
-30.3.2024, 18:35:09 - INFO - server.js loaded... 
-30.3.2024, 18:35:09 - INFO - Server is running on port: 3030 
-30.3.2024, 18:35:21 - INFO - Req was made | / 
-30.3.2024, 18:35:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:35:21 - INFO - Req was made | / 
-30.3.2024, 18:35:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 18:36:06 - INFO - {"name":"Tmanoon ","price":5,"labels":["Baby","Doll"],"createdAt":1711812966511,"inStock":"on"} 
-30.3.2024, 18:36:06 - ERROR - Failed to add toy | ReferenceError: loggedinUser is not defined 
-30.3.2024, 18:39:32 - INFO - {"name":"Tmanoon ","price":5,"labels":["Baby","Doll"],"createdAt":1711813172589,"inStock":"on"} 
-30.3.2024, 18:39:32 - ERROR - Failed to add toy | ReferenceError: loggedinUser is not defined 
-30.3.2024, 18:40:15 - INFO - server.js loaded... 
-30.3.2024, 18:40:15 - INFO - Server is running on port: 3030 
-30.3.2024, 18:46:06 - INFO - server.js loaded... 
-30.3.2024, 18:46:06 - INFO - Server is running on port: 3030 
-30.3.2024, 18:49:39 - INFO - server.js loaded... 
-30.3.2024, 18:49:39 - INFO - Server is running on port: 3030 
-30.3.2024, 18:59:12 - INFO - server.js loaded... 
-30.3.2024, 18:59:12 - INFO - Server is running on port: 3030 
-30.3.2024, 19:12:48 - INFO - server.js loaded... 
-30.3.2024, 19:12:48 - INFO - Server is running on port: 3030 
-30.3.2024, 19:13:01 - INFO - server.js loaded... 
-30.3.2024, 19:13:01 - INFO - Server is running on port: 3030 
-30.3.2024, 19:29:38 - INFO - server.js loaded... 
-30.3.2024, 19:29:38 - INFO - Server is running on port: 3030 
-30.3.2024, 20:29:38 - INFO - server.js loaded... 
-30.3.2024, 20:29:38 - INFO - Server is running on port: 3030 
-30.3.2024, 20:29:55 - INFO - server.js loaded... 
-30.3.2024, 20:29:55 - INFO - Server is running on port: 3030 
-30.3.2024, 20:29:59 - INFO - server.js loaded... 
-30.3.2024, 20:29:59 - INFO - Server is running on port: 3030 
-30.3.2024, 20:32:28 - INFO - server.js loaded... 
-30.3.2024, 20:32:28 - INFO - Server is running on port: 3030 
-30.3.2024, 20:32:35 - INFO - server.js loaded... 
-30.3.2024, 20:32:35 - INFO - Server is running on port: 3030 
-30.3.2024, 20:33:18 - INFO - server.js loaded... 
-30.3.2024, 20:33:18 - INFO - Server is running on port: 3030 
-30.3.2024, 20:34:09 - INFO - server.js loaded... 
-30.3.2024, 20:34:09 - INFO - Server is running on port: 3030 
-30.3.2024, 20:34:45 - INFO - server.js loaded... 
-30.3.2024, 20:34:45 - INFO - Server is running on port: 3030 
-30.3.2024, 20:40:46 - DEBUG - auth.service - login with username: shovalsab 
-30.3.2024, 20:40:46 - INFO - User login:  | {"_id":"66082c08e7e81b5b90195a02","username":"shovalsab","fullname":"Shoval Sab","isAdmin":true} 
-30.3.2024, 20:40:50 - INFO - Req was made | / 
-30.3.2024, 20:40:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:40:50 - INFO - Req was made | / 
-30.3.2024, 20:40:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:41:06 - INFO - {"name":"Tmanoon ","price":30,"labels":["Doll","Baby"],"createdAt":1711820466860,"inStock":""} 
-30.3.2024, 20:41:07 - INFO - Req was made | / 
-30.3.2024, 20:41:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:41:07 - INFO - Req was made | / 
-30.3.2024, 20:41:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:41:30 - INFO - Req was made | / 
-30.3.2024, 20:41:30 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:41:30 - INFO - Req was made | / 
-30.3.2024, 20:41:30 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:57:13 - DEBUG - auth.service - login with username: manoon 
-30.3.2024, 20:57:13 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
-30.3.2024, 20:57:19 - INFO - Req was made | / 
-30.3.2024, 20:57:19 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:57:19 - INFO - Req was made | / 
-30.3.2024, 20:57:19 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:57:28 - WARN - Manoon Manooni attempted to perform admin action 
-30.3.2024, 20:57:45 - INFO - Req was made | / 
-30.3.2024, 20:57:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:57:45 - INFO - Req was made | / 
-30.3.2024, 20:57:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:57:51 - WARN - Manoon Manooni attempted to perform admin action 
-30.3.2024, 20:58:01 - INFO - Req was made | / 
-30.3.2024, 20:58:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:58:01 - INFO - Req was made | / 
-30.3.2024, 20:58:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:58:05 - INFO - Req was made | / 
-30.3.2024, 20:58:05 - DEBUG - Loading Toys | {"name":"","inStock":"available","sortBy":""} 
-30.3.2024, 20:58:08 - INFO - Req was made | / 
-30.3.2024, 20:58:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 20:58:10 - INFO - Req was made | / 
-30.3.2024, 20:58:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"name"} 
-30.3.2024, 20:58:13 - INFO - Req was made | / 
-30.3.2024, 20:58:13 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"price"} 
-30.3.2024, 20:58:15 - INFO - Req was made | / 
-30.3.2024, 20:58:15 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"createdAt"} 
-30.3.2024, 20:58:17 - INFO - Req was made | / 
-30.3.2024, 20:58:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"all"} 
-30.3.2024, 21:03:18 - INFO - server.js loaded... 
-30.3.2024, 21:03:18 - INFO - Server is running on port: 3030 
-30.3.2024, 21:03:24 - INFO - Req was made | / 
-30.3.2024, 21:03:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:03:24 - INFO - Req was made | / 
-30.3.2024, 21:03:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:03:39 - INFO - Req was made | / 
-30.3.2024, 21:03:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:06:33 - INFO - Req was made | / 
-30.3.2024, 21:06:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:11:05 - INFO - server.js loaded... 
-30.3.2024, 21:11:05 - INFO - Server is running on port: 3030 
-30.3.2024, 21:12:42 - INFO - Req was made | / 
-30.3.2024, 21:12:42 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:18:54 - INFO - Req was made | / 
-30.3.2024, 21:18:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:18:54 - INFO - Req was made | / 
-30.3.2024, 21:18:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:20:30 - INFO - Req was made | / 
-30.3.2024, 21:20:30 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:20:30 - INFO - Req was made | / 
-30.3.2024, 21:20:30 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:38:22 - INFO - Req was made | / 
-30.3.2024, 21:38:22 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 21:38:23 - INFO - Req was made | / 
-30.3.2024, 21:38:23 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:38:08 - INFO - Req was made | / 
-30.3.2024, 23:38:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:38:09 - INFO - Req was made | / 
-30.3.2024, 23:38:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:38:18 - DEBUG - auth.service - login with username: shovalsab 
-30.3.2024, 23:38:18 - INFO - User login:  | {"_id":"66082c08e7e81b5b90195a02","username":"shovalsab","fullname":"Shoval Sab","isAdmin":true} 
-30.3.2024, 23:46:09 - INFO - Req was made | / 
-30.3.2024, 23:46:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:10 - INFO - Req was made | / 
-30.3.2024, 23:46:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:10 - INFO - Req was made | / 
-30.3.2024, 23:46:11 - INFO - Req was made | / 
-30.3.2024, 23:46:11 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:15 - INFO - Req was made | / 
-30.3.2024, 23:46:15 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:16 - INFO - Req was made | / 
-30.3.2024, 23:46:16 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:17 - INFO - Req was made | / 
-30.3.2024, 23:46:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:46:17 - INFO - Req was made | / 
-30.3.2024, 23:46:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:48:54 - INFO - Req was made | / 
-30.3.2024, 23:48:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:48:55 - INFO - Req was made | / 
-30.3.2024, 23:48:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:50:39 - INFO - Req was made | / 
-30.3.2024, 23:50:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:50:39 - INFO - Req was made | / 
-30.3.2024, 23:50:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:50:52 - INFO - Req was made | / 
-30.3.2024, 23:50:52 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:50:53 - INFO - Req was made | / 
-30.3.2024, 23:50:53 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:55:34 - INFO - Req was made | / 
-30.3.2024, 23:55:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-30.3.2024, 23:55:34 - INFO - Req was made | / 
-30.3.2024, 23:55:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:01:08 - INFO - Req was made | / 
-31.3.2024, 0:01:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:01:08 - INFO - Req was made | / 
-31.3.2024, 0:01:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:10:03 - INFO - Req was made | / 
-31.3.2024, 0:10:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:10:04 - INFO - Req was made | / 
-31.3.2024, 0:10:04 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:11:29 - INFO - Req was made | / 
-31.3.2024, 0:11:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:11:29 - INFO - Req was made | / 
-31.3.2024, 0:11:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:18:41 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:18:41 - INFO - Req was made | / 
-31.3.2024, 0:18:41 - INFO - Req was made | / 
-31.3.2024, 0:18:41 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:21:59 - INFO - Req was made | / 
-31.3.2024, 0:21:59 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:22:00 - INFO - Req was made | / 
-31.3.2024, 0:22:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:31:49 - INFO - Req was made | / 
-31.3.2024, 0:31:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:31:50 - INFO - Req was made | / 
-31.3.2024, 0:31:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:31:58 - INFO - Req was made | / 
-31.3.2024, 0:31:58 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:31:58 - INFO - Req was made | / 
-31.3.2024, 0:31:58 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:33:01 - INFO - Req was made | / 
-31.3.2024, 0:33:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:33:01 - INFO - Req was made | / 
-31.3.2024, 0:33:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:34:10 - INFO - Req was made | / 
-31.3.2024, 0:34:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:34:10 - INFO - Req was made | / 
-31.3.2024, 0:34:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:42:21 - INFO - Req was made | / 
-31.3.2024, 0:42:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:42:21 - INFO - Req was made | / 
-31.3.2024, 0:42:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:43:40 - INFO - server.js loaded... 
-31.3.2024, 0:43:40 - INFO - Server is running on port: 3030 
-31.3.2024, 0:44:07 - INFO - server.js loaded... 
-31.3.2024, 0:44:07 - INFO - Server is running on port: 3030 
-31.3.2024, 0:44:11 - INFO - Req was made | / 
-31.3.2024, 0:44:11 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:44:11 - INFO - Req was made | / 
-31.3.2024, 0:44:11 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:44:17 - INFO - Req was made | / 
-31.3.2024, 0:44:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:44:18 - INFO - Req was made | / 
-31.3.2024, 0:44:18 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:45:27 - INFO - Req was made | / 
-31.3.2024, 0:45:27 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:45:28 - INFO - Req was made | / 
-31.3.2024, 0:45:28 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:45:32 - INFO - Req was made | / 
-31.3.2024, 0:45:32 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:45:32 - INFO - Req was made | / 
-31.3.2024, 0:45:32 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:47:43 - INFO - Req was made | / 
-31.3.2024, 0:47:43 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:47:44 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:47:44 - INFO - Req was made | / 
-31.3.2024, 0:48:54 - INFO - Req was made | / 
-31.3.2024, 0:48:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:48:54 - INFO - Req was made | / 
-31.3.2024, 0:48:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:48:57 - INFO - Req was made | / 
-31.3.2024, 0:48:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 0:48:57 - INFO - Req was made | / 
-31.3.2024, 0:48:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 1:16:55 - INFO - Req was made | / 
-31.3.2024, 1:16:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 1:16:55 - INFO - Req was made | / 
-31.3.2024, 1:16:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
-31.3.2024, 1:20:03 - INFO - server.js loaded... 
-31.3.2024, 1:20:03 - INFO - Server is running on port: 3030 
+31.3.2024, 16:46:02 - INFO - server.js loaded... 
+31.3.2024, 16:46:02 - INFO - Server is running on port: 3030 
+31.3.2024, 16:46:07 - INFO - Req was made | / 
+31.3.2024, 16:46:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:46:07 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:46:07 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:46:07 - INFO - Req was made | / 
+31.3.2024, 16:46:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:46:07 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:46:07 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:47:41 - INFO - server.js loaded... 
+31.3.2024, 16:47:41 - INFO - Server is running on port: 3030 
+31.3.2024, 16:47:59 - INFO - server.js loaded... 
+31.3.2024, 16:47:59 - INFO - Server is running on port: 3030 
+31.3.2024, 16:48:02 - INFO - server.js loaded... 
+31.3.2024, 16:48:02 - INFO - Server is running on port: 3030 
+31.3.2024, 16:48:05 - INFO - Req was made | / 
+31.3.2024, 16:48:05 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:48:35 - INFO - server.js loaded... 
+31.3.2024, 16:48:35 - INFO - Server is running on port: 3030 
+31.3.2024, 16:48:38 - INFO - Req was made | / 
+31.3.2024, 16:48:38 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:48:38 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:48:38 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:48:38 - INFO - Req was made | / 
+31.3.2024, 16:48:38 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:48:38 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:48:38 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:49:48 - INFO - server.js loaded... 
+31.3.2024, 16:49:48 - INFO - Server is running on port: 3030 
+31.3.2024, 16:49:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:49:50 - INFO - Req was made | / 
+31.3.2024, 16:49:50 - INFO - Req was made | / 
+31.3.2024, 16:49:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:50:29 - INFO - server.js loaded... 
+31.3.2024, 16:50:29 - INFO - Server is running on port: 3030 
+31.3.2024, 16:51:32 - INFO - server.js loaded... 
+31.3.2024, 16:51:32 - INFO - Server is running on port: 3030 
+31.3.2024, 16:51:36 - INFO - Req was made | / 
+31.3.2024, 16:51:36 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:51:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:51:36 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:51:36 - INFO - Req was made | / 
+31.3.2024, 16:51:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:51:36 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:51:36 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:52:01 - INFO - server.js loaded... 
+31.3.2024, 16:52:01 - INFO - Server is running on port: 3030 
+31.3.2024, 16:52:20 - INFO - server.js loaded... 
+31.3.2024, 16:52:20 - INFO - Server is running on port: 3030 
+31.3.2024, 16:52:26 - INFO - Req was made | / 
+31.3.2024, 16:52:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:52:26 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:52:27 - INFO - Req was made | / 
+31.3.2024, 16:52:27 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:52:27 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:55:56 - INFO - server.js loaded... 
+31.3.2024, 16:55:56 - INFO - Server is running on port: 3030 
+31.3.2024, 16:56:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:56:03 - INFO - Req was made | / 
+31.3.2024, 16:56:03 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:56:03 - INFO - Req was made | / 
+31.3.2024, 16:56:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:56:03 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:57:30 - INFO - server.js loaded... 
+31.3.2024, 16:57:30 - INFO - Server is running on port: 3030 
+31.3.2024, 16:57:33 - INFO - Req was made | / 
+31.3.2024, 16:57:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:57:33 - ERROR - Failed to load toys | ReferenceError: toys is not defined 
+31.3.2024, 16:57:33 - INFO - Req was made | / 
+31.3.2024, 16:57:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:57:33 - ERROR - Failed to load toys | ReferenceError: toys is not defined 
+31.3.2024, 16:57:54 - INFO - server.js loaded... 
+31.3.2024, 16:57:54 - INFO - Server is running on port: 3030 
+31.3.2024, 16:57:59 - INFO - Req was made | / 
+31.3.2024, 16:57:59 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:57:59 - ERROR - Failed to load toys | ReferenceError: toys is not defined 
+31.3.2024, 16:58:00 - INFO - Req was made | / 
+31.3.2024, 16:58:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:58:00 - ERROR - Failed to load toys | ReferenceError: toys is not defined 
+31.3.2024, 16:58:31 - INFO - server.js loaded... 
+31.3.2024, 16:58:31 - INFO - Server is running on port: 3030 
+31.3.2024, 16:59:42 - INFO - server.js loaded... 
+31.3.2024, 16:59:42 - INFO - Server is running on port: 3030 
+31.3.2024, 16:59:45 - INFO - Req was made | / 
+31.3.2024, 16:59:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:59:45 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:59:45 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 16:59:45 - INFO - Req was made | / 
+31.3.2024, 16:59:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 16:59:45 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+31.3.2024, 16:59:45 - ERROR - Failed to load toys | ReferenceError: logger is not defined 
+31.3.2024, 17:06:29 - INFO - server.js loaded... 
+31.3.2024, 17:06:29 - INFO - Server is running on port: 3030 
+31.3.2024, 17:06:34 - INFO - Req was made | / 
+31.3.2024, 17:06:34 - ERROR - Cannot Connect to DB | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:34 - ERROR - Failed to get Mongo collection | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:06:34 - ERROR - cannot find toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:34 - ERROR - Failed to load toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:35 - INFO - Req was made | / 
+31.3.2024, 17:06:35 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:06:35 - ERROR - Cannot Connect to DB | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:35 - ERROR - Failed to get Mongo collection | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:35 - ERROR - cannot find toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:06:35 - ERROR - Failed to load toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:40 - INFO - server.js loaded... 
+31.3.2024, 17:08:40 - INFO - Server is running on port: 3030 
+31.3.2024, 17:08:46 - INFO - Req was made | / 
+31.3.2024, 17:08:46 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:08:46 - ERROR - Cannot Connect to DB | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - ERROR - Failed to get Mongo collection | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - ERROR - cannot find toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - ERROR - Failed to load toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - INFO - Req was made | / 
+31.3.2024, 17:08:46 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:08:46 - ERROR - Cannot Connect to DB | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - ERROR - Failed to get Mongo collection | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - ERROR - cannot find toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:08:46 - ERROR - Failed to load toys | TypeError: MongoClient.connect is not a function 
+31.3.2024, 17:12:25 - INFO - server.js loaded... 
+31.3.2024, 17:12:25 - INFO - Server is running on port: 3030 
+31.3.2024, 17:12:45 - INFO - server.js loaded... 
+31.3.2024, 17:12:45 - INFO - Server is running on port: 3030 
+31.3.2024, 17:12:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:12:48 - INFO - Req was made | / 
+31.3.2024, 17:12:49 - INFO - Req was made | / 
+31.3.2024, 17:12:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:14:48 - DEBUG - auth.service - login with username: manoon 
+31.3.2024, 17:14:48 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
+31.3.2024, 17:15:14 - INFO - Req was made | / 
+31.3.2024, 17:15:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:15:14 - INFO - Req was made | / 
+31.3.2024, 17:15:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:15:15 - INFO - User logged out 
+31.3.2024, 17:16:03 - INFO - Req was made | / 
+31.3.2024, 17:16:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:03 - INFO - Req was made | / 
+31.3.2024, 17:16:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:36 - INFO - Req was made | / 
+31.3.2024, 17:16:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:38 - INFO - Req was made | / 
+31.3.2024, 17:16:38 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:44 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:44 - INFO - Req was made | / 
+31.3.2024, 17:16:48 - INFO - Req was made | / 
+31.3.2024, 17:16:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:48 - INFO - Req was made | / 
+31.3.2024, 17:16:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:54 - INFO - Req was made | / 
+31.3.2024, 17:16:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:16:54 - INFO - Req was made | / 
+31.3.2024, 17:16:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:17:08 - DEBUG - auth.service - login with username: manoon 
+31.3.2024, 17:17:08 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
+31.3.2024, 17:17:11 - WARN - Manoon Manooni attempted to perform admin action 
+31.3.2024, 17:17:15 - INFO - User logged out 
+31.3.2024, 17:17:23 - DEBUG - auth.service - login with username: shovalsab 
+31.3.2024, 17:17:23 - INFO - User login:  | {"_id":"66082c08e7e81b5b90195a02","username":"shovalsab","fullname":"Shoval Sab","isAdmin":true} 
+31.3.2024, 17:17:39 - INFO - {"name":"tooti","price":11,"labels":["On wheels","Box game"],"createdAt":1711894659144,"inStock":["on"]} 
+31.3.2024, 17:17:39 - INFO - Req was made | / 
+31.3.2024, 17:17:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:17:39 - INFO - Req was made | / 
+31.3.2024, 17:17:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:17:47 - INFO - User logged out 
+31.3.2024, 17:20:45 - INFO - server.js loaded... 
+31.3.2024, 17:20:45 - INFO - Server is running on port: 3030 
