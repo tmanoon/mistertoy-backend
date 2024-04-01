@@ -13,6 +13,5 @@ toyRoutes.get('/:id', getToyById)
 toyRoutes.post('/',  requireAdmin, addToy)
 toyRoutes.put('/', requireAdmin, updateToy)
 toyRoutes.delete('/:id', requireAdmin, removeToy)
-
 toyRoutes.post('/:id/msg', requireAuth, addToyMsg)
 toyRoutes.delete('/:id/msg/:msgId', requireAuth, removeToyMsg)
