@@ -5,20 +5,21 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 import { utilService } from '../../services/util.service.js'
 
-async function query(filterBy = { name: '', inStock: 'all', sortBy: '' }) {
+async function query(filterBy = {}) {
     try {
         let collection = await dbService.getCollection('toy')
         let toys = await collection.find().toArray()
-        if (filterBy.name || filterBy.inStock !== 'all') {
-            const criteria = {}
-            if (filterBy.name) criteria.name = { $regex: filterBy.name, $options: 'i' }
-            if (filterBy.inStock !== 'all') {
-                criteria.inStock = filterBy.inStock === 'available' ? { $eq: true } : { $eq: false }
-            }
-            toys = await collection.find(criteria).toArray()
+        // if (filterBy.name || filterBy.inStock !== 'all') {
+        //     const criteria = {}
+        //     if (filterBy.name) criteria.name = { $regex: filterBy.name, $options: 'i' }
+        //     if (filterBy.inStock !== 'all') {
+        //         criteria.inStock = filterBy.inStock === 'available' ? { $eq: true } : { $eq: false }
+        //     }
+        //     toys = await collection.find(criteria).toArray()
 
-        }
-        if (filterBy.sortBy) toys = await collection.find().sort({ [filterBy.sortBy]: 1 }).toArray()
+        // }
+        const criteria = _getCriteria(filterBy)
+        toys = await collection.find(criteria).sort({ [criteria.sortBy]: 1 }).toArray()
         return toys
     } catch (err) {
         logger.error('cannot find toys', err)
@@ -102,6 +103,15 @@ async function removeToyMsg(toyId, msgId) {
         logger.error(`cannot add toy msg ${toyId}`, err)
         throw err
     }
+}
+
+function _getCriteria(filterBy) {
+    const criteria = {}
+    if (filterBy.name) criteria.name = { $regex: filterBy.name, $options: 'i' }
+    if (filterBy.inStock !== 'all') criteria.inStock = filterBy.inStock === 'available' ? { $eq: true } : { $eq: false }
+    if (filterBy.labels) criteria.labels = { $in: filterBy.labels }
+    if (filterBy.sortBy) criteria.sortBy = filterBy.sortBy
+    return criteria
 }
 
 export const toyService = {
