@@ -165,3 +165,635 @@
 31.3.2024, 17:17:47 - INFO - User logged out 
 31.3.2024, 17:20:45 - INFO - server.js loaded... 
 31.3.2024, 17:20:45 - INFO - Server is running on port: 3030 
+31.3.2024, 17:46:00 - INFO - Req was made | / 
+31.3.2024, 17:46:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:46:00 - INFO - Req was made | / 
+31.3.2024, 17:46:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:46:07 - INFO - Req was made | / 
+31.3.2024, 17:46:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 17:46:08 - INFO - Req was made | / 
+31.3.2024, 17:46:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:02:08 - INFO - Req was made | / 
+31.3.2024, 18:02:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:02:09 - INFO - Req was made | / 
+31.3.2024, 18:02:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:02:12 - INFO - Req was made | / 
+31.3.2024, 18:02:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:02:12 - INFO - Req was made | / 
+31.3.2024, 18:02:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:02:51 - INFO - Req was made | / 
+31.3.2024, 18:02:51 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:02:51 - INFO - Req was made | / 
+31.3.2024, 18:02:51 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:11:06 - INFO - Req was made | / 
+31.3.2024, 18:11:06 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:11:06 - INFO - Req was made | / 
+31.3.2024, 18:11:06 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:29:48 - INFO - Req was made | / 
+31.3.2024, 18:29:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:29:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:29:49 - INFO - Req was made | / 
+31.3.2024, 18:30:34 - INFO - Req was made | / 
+31.3.2024, 18:30:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:34:48 - INFO - Req was made | / 
+31.3.2024, 18:34:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:34:52 - INFO - Req was made | / 
+31.3.2024, 18:34:52 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:32 - INFO - Req was made | / 
+31.3.2024, 18:35:32 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:32 - INFO - Req was made | / 
+31.3.2024, 18:35:32 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:33 - INFO - Req was made | / 
+31.3.2024, 18:35:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:33 - INFO - Req was made | / 
+31.3.2024, 18:35:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:39 - INFO - Req was made | / 
+31.3.2024, 18:35:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:44 - INFO - Req was made | / 
+31.3.2024, 18:35:44 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:47 - INFO - Req was made | / 
+31.3.2024, 18:35:47 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:49 - INFO - Req was made | / 
+31.3.2024, 18:35:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:35:57 - INFO - Req was made | / 
+31.3.2024, 18:35:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":""} 
+31.3.2024, 18:45:05 - INFO - server.js loaded... 
+31.3.2024, 18:45:05 - INFO - Server is running on port: 3030 
+31.3.2024, 18:45:09 - INFO - Req was made | / 
+31.3.2024, 18:45:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:45:09 - ERROR - cannot find toys | ReferenceError: filterby is not defined 
+31.3.2024, 18:45:09 - ERROR - Failed to load toys | ReferenceError: filterby is not defined 
+31.3.2024, 18:45:09 - INFO - Req was made | / 
+31.3.2024, 18:45:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:45:09 - ERROR - cannot find toys | ReferenceError: filterby is not defined 
+31.3.2024, 18:45:09 - ERROR - Failed to load toys | ReferenceError: filterby is not defined 
+31.3.2024, 18:45:52 - INFO - server.js loaded... 
+31.3.2024, 18:45:52 - INFO - Server is running on port: 3030 
+31.3.2024, 18:45:56 - INFO - Req was made | / 
+31.3.2024, 18:45:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:45:56 - INFO - Req was made | / 
+31.3.2024, 18:45:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:46:02 - INFO - Req was made | / 
+31.3.2024, 18:46:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 18:46:09 - INFO - Req was made | / 
+31.3.2024, 18:46:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 18:46:09 - INFO - Req was made | / 
+31.3.2024, 18:46:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 18:46:12 - INFO - Req was made | / 
+31.3.2024, 18:46:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["All"]} 
+31.3.2024, 18:46:21 - INFO - Req was made | / 
+31.3.2024, 18:46:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:46:23 - INFO - Req was made | / 
+31.3.2024, 18:46:23 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["All"]} 
+31.3.2024, 18:46:25 - INFO - Req was made | / 
+31.3.2024, 18:46:25 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:46:43 - INFO - Req was made | / 
+31.3.2024, 18:46:43 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:46:43 - INFO - Req was made | / 
+31.3.2024, 18:46:43 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:46:52 - INFO - Req was made | / 
+31.3.2024, 18:46:52 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 18:46:59 - INFO - Req was made | / 
+31.3.2024, 18:46:59 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:47:07 - INFO - Req was made | / 
+31.3.2024, 18:47:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:47:08 - INFO - Req was made | / 
+31.3.2024, 18:47:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:47:20 - INFO - Req was made | / 
+31.3.2024, 18:47:20 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:47:20 - INFO - Req was made | / 
+31.3.2024, 18:47:20 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:47:26 - INFO - Req was made | / 
+31.3.2024, 18:47:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:47:26 - INFO - Req was made | / 
+31.3.2024, 18:47:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:48:06 - INFO - Req was made | / 
+31.3.2024, 18:48:06 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll","Outdoor"]} 
+31.3.2024, 18:48:14 - INFO - Req was made | / 
+31.3.2024, 18:48:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["On wheels"]} 
+31.3.2024, 18:48:15 - INFO - Req was made | / 
+31.3.2024, 18:48:15 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:48:17 - INFO - Req was made | / 
+31.3.2024, 18:48:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:48:18 - INFO - Req was made | / 
+31.3.2024, 18:48:18 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:48:21 - INFO - Req was made | / 
+31.3.2024, 18:48:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["On wheels"]} 
+31.3.2024, 18:48:22 - INFO - Req was made | / 
+31.3.2024, 18:48:22 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:48:24 - INFO - Req was made | / 
+31.3.2024, 18:48:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:48:24 - INFO - Req was made | / 
+31.3.2024, 18:48:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:48:25 - INFO - Req was made | / 
+31.3.2024, 18:48:25 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Art"]} 
+31.3.2024, 18:48:28 - INFO - Req was made | / 
+31.3.2024, 18:48:28 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Art"]} 
+31.3.2024, 18:48:28 - INFO - Req was made | / 
+31.3.2024, 18:48:28 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Art"]} 
+31.3.2024, 18:49:37 - INFO - Req was made | / 
+31.3.2024, 18:49:37 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["On wheels"]} 
+31.3.2024, 18:49:39 - INFO - Req was made | / 
+31.3.2024, 18:49:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:49:42 - INFO - Req was made | / 
+31.3.2024, 18:49:42 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Art"]} 
+31.3.2024, 18:49:48 - INFO - Req was made | / 
+31.3.2024, 18:49:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Art"]} 
+31.3.2024, 18:49:49 - INFO - Req was made | / 
+31.3.2024, 18:49:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Art"]} 
+31.3.2024, 18:52:56 - INFO - Req was made | / 
+31.3.2024, 18:52:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:57:24 - INFO - Req was made | / 
+31.3.2024, 18:57:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:57:25 - INFO - Req was made | / 
+31.3.2024, 18:57:25 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:57:31 - INFO - Req was made | / 
+31.3.2024, 18:57:31 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:57:31 - INFO - Req was made | / 
+31.3.2024, 18:57:31 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:57:40 - INFO - Req was made | / 
+31.3.2024, 18:57:40 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:59:09 - INFO - Req was made | / 
+31.3.2024, 18:59:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:59:09 - INFO - Req was made | / 
+31.3.2024, 18:59:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 18:59:12 - INFO - Req was made | / 
+31.3.2024, 18:59:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:59:20 - INFO - Req was made | / 
+31.3.2024, 18:59:20 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 18:59:21 - INFO - Req was made | / 
+31.3.2024, 18:59:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:01:29 - INFO - Req was made | / 
+31.3.2024, 19:01:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:02:10 - INFO - Req was made | / 
+31.3.2024, 19:02:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:02:17 - INFO - Req was made | / 
+31.3.2024, 19:02:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:02:21 - INFO - Req was made | / 
+31.3.2024, 19:02:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:02:21 - INFO - Req was made | / 
+31.3.2024, 19:02:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:02:41 - INFO - Req was made | / 
+31.3.2024, 19:02:41 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:02:41 - INFO - Req was made | / 
+31.3.2024, 19:02:41 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:02:54 - INFO - Req was made | / 
+31.3.2024, 19:02:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:02:54 - INFO - Req was made | / 
+31.3.2024, 19:02:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:06:42 - INFO - Req was made | / 
+31.3.2024, 19:06:42 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:07:32 - INFO - server.js loaded... 
+31.3.2024, 19:07:32 - INFO - Server is running on port: 3030 
+31.3.2024, 19:07:36 - INFO - Req was made | / 
+31.3.2024, 19:07:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:07:36 - INFO - Req was made | / 
+31.3.2024, 19:07:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:07:41 - INFO - Req was made | / 
+31.3.2024, 19:07:41 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:07:45 - INFO - Req was made | / 
+31.3.2024, 19:07:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:07:45 - INFO - Req was made | / 
+31.3.2024, 19:07:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:09:29 - INFO - Req was made | / 
+31.3.2024, 19:09:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:09:36 - INFO - Req was made | / 
+31.3.2024, 19:09:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Box game"]} 
+31.3.2024, 19:09:38 - INFO - Req was made | / 
+31.3.2024, 19:09:38 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:09:40 - INFO - Req was made | / 
+31.3.2024, 19:09:40 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 19:09:46 - INFO - Req was made | / 
+31.3.2024, 19:09:46 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 19:09:46 - INFO - Req was made | / 
+31.3.2024, 19:09:46 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["Doll"]} 
+31.3.2024, 19:10:07 - INFO - Req was made | / 
+31.3.2024, 19:10:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:10:54 - INFO - Req was made | / 
+31.3.2024, 19:10:54 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:10:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:10:56 - INFO - Req was made | / 
+31.3.2024, 19:10:57 - INFO - Req was made | / 
+31.3.2024, 19:10:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:11:04 - INFO - Req was made | / 
+31.3.2024, 19:11:04 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:13:21 - INFO - Req was made | / 
+31.3.2024, 19:13:21 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:13:24 - INFO - Req was made | / 
+31.3.2024, 19:13:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:13:24 - INFO - Req was made | / 
+31.3.2024, 19:13:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:13:49 - INFO - Req was made | / 
+31.3.2024, 19:13:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:14:00 - INFO - Req was made | / 
+31.3.2024, 19:14:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:14:01 - INFO - Req was made | / 
+31.3.2024, 19:14:01 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:14:22 - INFO - Req was made | / 
+31.3.2024, 19:14:22 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:14:57 - INFO - Req was made | / 
+31.3.2024, 19:14:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:15:00 - INFO - Req was made | / 
+31.3.2024, 19:15:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:15:00 - INFO - Req was made | / 
+31.3.2024, 19:15:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:15:34 - INFO - Req was made | / 
+31.3.2024, 19:15:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:15:39 - INFO - Req was made | / 
+31.3.2024, 19:15:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:15:40 - INFO - Req was made | / 
+31.3.2024, 19:15:40 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:15:58 - INFO - Req was made | / 
+31.3.2024, 19:15:58 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:16:08 - INFO - Req was made | / 
+31.3.2024, 19:16:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:17:07 - INFO - Req was made | / 
+31.3.2024, 19:17:07 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:17:14 - INFO - Req was made | / 
+31.3.2024, 19:17:14 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["On wheels"]} 
+31.3.2024, 19:17:15 - INFO - Req was made | / 
+31.3.2024, 19:17:15 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:17:33 - INFO - Req was made | / 
+31.3.2024, 19:17:33 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:17:35 - INFO - Req was made | / 
+31.3.2024, 19:17:35 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":["On wheels"]} 
+31.3.2024, 19:17:36 - INFO - Req was made | / 
+31.3.2024, 19:17:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:45:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 19:45:02 - INFO - Req was made | / 
+31.3.2024, 19:45:03 - INFO - Req was made | / 
+31.3.2024, 19:45:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 21:44:32 - INFO - Req was made | / 
+31.3.2024, 21:44:32 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":"","labels":""} 
+31.3.2024, 23:04:55 - INFO - Req was made | / 
+31.3.2024, 23:04:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 23:04:55 - INFO - Req was made | / 
+31.3.2024, 23:04:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 23:05:22 - INFO - Req was made | / 
+31.3.2024, 23:05:22 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":"","labels":""} 
+31.3.2024, 23:06:03 - INFO - Req was made | / 
+31.3.2024, 23:06:03 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":"","labels":""} 
+31.3.2024, 23:30:49 - INFO - Req was made | / 
+31.3.2024, 23:30:49 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 23:30:50 - INFO - Req was made | / 
+31.3.2024, 23:30:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 23:59:56 - INFO - Req was made | / 
+31.3.2024, 23:59:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+31.3.2024, 23:59:56 - INFO - Req was made | / 
+31.3.2024, 23:59:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:23:12 - INFO - Req was made | / 
+1.4.2024, 0:23:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:23:13 - INFO - Req was made | / 
+1.4.2024, 0:23:13 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:52:02 - INFO - Req was made | / 
+1.4.2024, 0:52:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:52:02 - INFO - Req was made | / 
+1.4.2024, 0:52:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:53:34 - INFO - Req was made | / 
+1.4.2024, 0:53:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:53:34 - INFO - Req was made | / 
+1.4.2024, 0:53:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:54:02 - INFO - Req was made | / 
+1.4.2024, 0:54:02 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:54:03 - INFO - Req was made | / 
+1.4.2024, 0:54:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:54:12 - INFO - Req was made | / 
+1.4.2024, 0:54:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:54:12 - INFO - Req was made | / 
+1.4.2024, 0:54:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:54:45 - INFO - Req was made | / 
+1.4.2024, 0:54:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 0:54:45 - INFO - Req was made | / 
+1.4.2024, 0:54:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:01:10 - INFO - Req was made | / 
+1.4.2024, 1:01:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:01:10 - INFO - Req was made | / 
+1.4.2024, 1:01:10 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:02:08 - INFO - Req was made | / 
+1.4.2024, 1:02:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:02:08 - INFO - Req was made | / 
+1.4.2024, 1:02:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:09:09 - INFO - Req was made | / 
+1.4.2024, 1:09:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:09:09 - INFO - Req was made | / 
+1.4.2024, 1:09:09 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:13:36 - INFO - Req was made | / 
+1.4.2024, 1:13:36 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:13:37 - INFO - Req was made | / 
+1.4.2024, 1:13:37 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 1:15:56 - INFO - Req was made | / 
+1.4.2024, 1:15:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:32:58 - INFO - server.js loaded... 
+1.4.2024, 9:32:58 - INFO - Server is running on port: 3030 
+1.4.2024, 9:36:42 - INFO - Req was made | / 
+1.4.2024, 9:36:42 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:36:42 - INFO - Req was made | / 
+1.4.2024, 9:36:42 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:56:23 - INFO - server.js loaded... 
+1.4.2024, 9:56:23 - INFO - Server is running on port: 3030 
+1.4.2024, 9:57:12 - INFO - Req was made | / 
+1.4.2024, 9:57:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:57:13 - INFO - Req was made | / 
+1.4.2024, 9:57:13 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:58:29 - INFO - Req was made | / 
+1.4.2024, 9:58:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:58:29 - INFO - Req was made | / 
+1.4.2024, 9:58:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:59:26 - INFO - Req was made | / 
+1.4.2024, 9:59:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 9:59:26 - INFO - Req was made | / 
+1.4.2024, 9:59:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 10:03:08 - INFO - server.js loaded... 
+1.4.2024, 10:03:08 - INFO - Server is running on port: 3030 
+1.4.2024, 10:07:13 - INFO - server.js loaded... 
+1.4.2024, 10:07:13 - INFO - Server is running on port: 3030 
+1.4.2024, 10:17:01 - DEBUG - auth.service - login with username: shovalsab 
+1.4.2024, 10:17:01 - INFO - User login:  | {"_id":"66082c08e7e81b5b90195a02","username":"shovalsab","fullname":"Shoval Sab","isAdmin":true} 
+1.4.2024, 10:30:07 - INFO - {"name":"Tmanoon ","price":9,"labels":["Doll","Baby"],"createdAt":1711956607639,"inStock":true} 
+1.4.2024, 10:30:07 - ERROR - Failed to add toy | TypeError: Cannot read properties of undefined (reading 'fullname') 
+1.4.2024, 10:30:37 - INFO - {"name":"Tmanoon ","price":999,"labels":["Doll","Baby"],"createdAt":1711956637898,"inStock":true} 
+1.4.2024, 10:30:37 - ERROR - Failed to add toy | TypeError: Cannot read properties of undefined (reading 'fullname') 
+1.4.2024, 10:38:18 - INFO - server.js loaded... 
+1.4.2024, 10:38:18 - INFO - Server is running on port: 3030 
+1.4.2024, 10:41:28 - INFO - server.js loaded... 
+1.4.2024, 10:41:28 - INFO - Server is running on port: 3030 
+1.4.2024, 10:41:32 - INFO - {"name":"Tmanoon ","price":999,"labels":["Doll","Baby"],"createdAt":1711957292072,"inStock":true} 
+1.4.2024, 10:41:32 - INFO - {"_id":"66082c08e7e81b5b90195a02","fullname":"Shoval Sab","isAdmin":true} 
+1.4.2024, 10:41:32 - ERROR - Failed to add toy | ReferenceError: ObjectId is not defined 
+1.4.2024, 10:41:57 - INFO - server.js loaded... 
+1.4.2024, 10:41:57 - INFO - Server is running on port: 3030 
+1.4.2024, 10:45:35 - INFO - server.js loaded... 
+1.4.2024, 10:45:35 - INFO - Server is running on port: 3030 
+1.4.2024, 10:45:46 - INFO - {"name":"Tmanoon ","price":8,"labels":["Puzzle"],"createdAt":1711957545954,"inStock":true} 
+1.4.2024, 10:45:46 - ERROR - Failed to add toy | TypeError: Cannot read properties of undefined (reading 'fullname') 
+1.4.2024, 16:07:38 - INFO - Req was made | / 
+1.4.2024, 16:07:38 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 16:07:39 - INFO - Req was made | / 
+1.4.2024, 16:07:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 16:10:47 - INFO - server.js loaded... 
+1.4.2024, 16:10:47 - INFO - Server is running on port: 3030 
+1.4.2024, 16:10:59 - INFO - server.js loaded... 
+1.4.2024, 16:10:59 - INFO - Server is running on port: 3030 
+1.4.2024, 16:11:50 - INFO - server.js loaded... 
+1.4.2024, 16:11:50 - INFO - Server is running on port: 3030 
+1.4.2024, 16:12:56 - INFO - server.js loaded... 
+1.4.2024, 16:12:56 - INFO - Server is running on port: 3030 
+1.4.2024, 16:13:22 - INFO - server.js loaded... 
+1.4.2024, 16:13:22 - INFO - Server is running on port: 3030 
+1.4.2024, 16:14:54 - INFO - server.js loaded... 
+1.4.2024, 16:14:54 - INFO - Server is running on port: 3030 
+1.4.2024, 16:35:03 - INFO - server.js loaded... 
+1.4.2024, 16:35:03 - INFO - Server is running on port: 3030 
+1.4.2024, 16:35:14 - INFO - server.js loaded... 
+1.4.2024, 16:35:14 - INFO - Server is running on port: 3030 
+1.4.2024, 17:14:26 - INFO - server.js loaded... 
+1.4.2024, 17:14:26 - INFO - Server is running on port: 3030 
+1.4.2024, 17:14:29 - INFO - server.js loaded... 
+1.4.2024, 17:14:29 - INFO - Server is running on port: 3030 
+1.4.2024, 17:14:38 - INFO - Req was made | / 
+1.4.2024, 17:14:38 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 17:14:39 - INFO - Req was made | / 
+1.4.2024, 17:14:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 17:14:47 - INFO - Req was made | / 
+1.4.2024, 17:14:47 - DEBUG - Loading Toys | {"name":"","inStock":"","sortBy":"","labels":""} 
+1.4.2024, 17:57:15 - INFO - Req was made | / 
+1.4.2024, 17:57:15 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 17:57:15 - INFO - Req was made | / 
+1.4.2024, 17:57:15 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:01:47 - DEBUG - auth.service - login with username: kashoosh 
+1.4.2024, 19:01:47 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') 
+1.4.2024, 19:02:36 - DEBUG - auth.service - login with username: pooki 
+1.4.2024, 19:02:36 - INFO - User login:  | {"_id":"66072f9d47d0922f147edf6b","username":"pooki","fullname":"Pooki Pikpooki","isAdmin":false} 
+1.4.2024, 19:02:50 - WARN - Pooki Pikpooki attempted to perform admin action 
+1.4.2024, 19:05:54 - WARN - Pooki Pikpooki attempted to perform admin action 
+1.4.2024, 19:07:46 - WARN - Pooki Pikpooki attempted to perform admin action 
+1.4.2024, 19:16:16 - INFO - server.js loaded... 
+1.4.2024, 19:16:16 - INFO - Server is running on port: 3030 
+1.4.2024, 19:38:21 - INFO - server.js loaded... 
+1.4.2024, 19:38:21 - INFO - Server is running on port: 3030 
+1.4.2024, 19:38:22 - INFO - Req was made | / 
+1.4.2024, 19:38:22 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:39:12 - INFO - server.js loaded... 
+1.4.2024, 19:39:12 - INFO - Server is running on port: 3030 
+1.4.2024, 19:39:17 - INFO - Req was made | / 
+1.4.2024, 19:39:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:39:18 - INFO - Req was made | / 
+1.4.2024, 19:39:18 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:46:08 - INFO - server.js loaded... 
+1.4.2024, 19:46:08 - INFO - Server is running on port: 3030 
+1.4.2024, 19:46:08 - INFO - Req was made | / 
+1.4.2024, 19:46:08 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:46:53 - INFO - server.js loaded... 
+1.4.2024, 19:46:53 - INFO - Server is running on port: 3030 
+1.4.2024, 19:50:43 - INFO - server.js loaded... 
+1.4.2024, 19:50:43 - INFO - Server is running on port: 3030 
+1.4.2024, 19:50:45 - INFO - Req was made | / 
+1.4.2024, 19:50:45 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:50:46 - INFO - Req was made | / 
+1.4.2024, 19:50:46 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:57:26 - INFO - Req was made | / 
+1.4.2024, 19:57:26 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 19:57:27 - INFO - Req was made | / 
+1.4.2024, 19:57:27 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 20:01:49 - INFO - {"txt":"mhjhm","id":"wRBxJD","by":{"_id":"66072f9d47d0922f147edf6b","fullname":"Pooki Pikpooki","isAdmin":false}} 
+1.4.2024, 20:53:29 - INFO - server.js loaded... 
+1.4.2024, 20:53:29 - INFO - Server is running on port: 3030 
+1.4.2024, 20:53:30 - INFO - Req was made | / 
+1.4.2024, 20:53:30 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 20:54:40 - INFO - server.js loaded... 
+1.4.2024, 20:54:40 - INFO - Server is running on port: 3030 
+1.4.2024, 20:58:18 - INFO - Req was made | / 
+1.4.2024, 20:58:18 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 20:58:20 - INFO - Req was made | / 
+1.4.2024, 20:58:20 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 21:04:56 - INFO - Req was made | / 
+1.4.2024, 21:04:56 - INFO - Req was made | / 
+1.4.2024, 21:04:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 21:04:57 - INFO - Req was made | / 
+1.4.2024, 21:04:57 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 21:04:57 - INFO - Req was made | / 
+1.4.2024, 21:09:22 - INFO - server.js loaded... 
+1.4.2024, 21:09:22 - INFO - Server is running on port: 3030 
+1.4.2024, 21:09:50 - DEBUG - auth.service - login with username: manoon 
+1.4.2024, 21:09:50 - INFO - User login:  | {"_id":"66072f8547d0922f147edf6a","username":"manoon","fullname":"Manoon Manooni","isAdmin":false} 
+1.4.2024, 21:10:00 - INFO - {"txt":"tgrgrtg","id":"SjxF1X","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:15:19 - INFO - {"txt":"bfgbgfb","id":"diZ8gH","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:18:47 - INFO - {"txt":"gtrgrt","id":"MsIquq","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:19:01 - INFO - {"txt":"gtrgrt","id":"cd8eDd","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:19:37 - INFO - {"txt":"nthyt","id":"sOabGu","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:21:35 - INFO - {"txt":"nthyt","id":"oi3pWe","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:27:26 - INFO - {"txt":"hgbgbhg","id":"j38DMR","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:27:27 - WARN - Manoon Manooni attempted to perform admin action 
+1.4.2024, 21:31:18 - INFO - {"txt":"hytyhth","id":"auO8va","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:31:18 - WARN - Manoon Manooni attempted to perform admin action 
+1.4.2024, 21:34:02 - INFO - {"txt":"ikiu","id":"0eeC7y","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:34:03 - WARN - Manoon Manooni attempted to perform admin action 
+1.4.2024, 21:34:50 - INFO - {"txt":"jjj","id":"elAVv3","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:34:51 - WARN - Manoon Manooni attempted to perform admin action 
+1.4.2024, 21:37:29 - INFO - {"txt":"jjjjuyjuyyuj","id":"EUjLRc","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:37:30 - WARN - Manoon Manooni attempted to perform admin action 
+1.4.2024, 21:37:43 - INFO - {"txt":"juyjyujyu","id":"JooqWh","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:37:43 - WARN - Manoon Manooni attempted to perform admin action 
+1.4.2024, 21:50:13 - INFO - server.js loaded... 
+1.4.2024, 21:50:13 - INFO - Server is running on port: 3030 
+1.4.2024, 21:52:31 - INFO - {"txt":"juyjuyju","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:52:35 - INFO - {"txt":"juyjuyjujuyjyuyjj","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:53:06 - INFO - {"txt":"juyjuyjujuyjhythythtyyuyjj","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 21:53:31 - INFO - {"txt":"jyujyjjiiii","by":{"_id":"66072f8547d0922f147edf6a","fullname":"Manoon Manooni","isAdmin":false}} 
+1.4.2024, 22:16:52 - INFO - Req was made | / 
+1.4.2024, 22:16:52 - INFO - Req was made | / 
+1.4.2024, 22:16:52 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:16:53 - INFO - Req was made | / 
+1.4.2024, 22:16:53 - INFO - Req was made | / 
+1.4.2024, 22:16:53 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:17:03 - INFO - Req was made | / 
+1.4.2024, 22:17:03 - INFO - Req was made | / 
+1.4.2024, 22:17:03 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:28:17 - INFO - Req was made | / 
+1.4.2024, 22:28:17 - INFO - Req was made | / 
+1.4.2024, 22:28:17 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:28:18 - INFO - Req was made | / 
+1.4.2024, 22:28:18 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:28:18 - INFO - Req was made | / 
+1.4.2024, 22:29:34 - INFO - Req was made | / 
+1.4.2024, 22:29:34 - INFO - Req was made | / 
+1.4.2024, 22:29:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:29:34 - INFO - Req was made | / 
+1.4.2024, 22:29:34 - INFO - Req was made | / 
+1.4.2024, 22:29:34 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:29:55 - INFO - Req was made | / 
+1.4.2024, 22:29:55 - INFO - Req was made | / 
+1.4.2024, 22:29:55 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:29:56 - INFO - Req was made | / 
+1.4.2024, 22:29:56 - INFO - Req was made | / 
+1.4.2024, 22:29:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:32:51 - INFO - Req was made | / 
+1.4.2024, 22:32:51 - INFO - Req was made | / 
+1.4.2024, 22:32:51 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:32:51 - INFO - Req was made | / 
+1.4.2024, 22:32:51 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:32:51 - INFO - Req was made | / 
+1.4.2024, 22:32:56 - INFO - Req was made | / 
+1.4.2024, 22:32:56 - INFO - Req was made | / 
+1.4.2024, 22:32:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:32:56 - INFO - Req was made | / 
+1.4.2024, 22:32:56 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:32:56 - INFO - Req was made | / 
+1.4.2024, 22:33:06 - INFO - Req was made | / 
+1.4.2024, 22:33:06 - INFO - Req was made | / 
+1.4.2024, 22:33:06 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:06 - INFO - Req was made | / 
+1.4.2024, 22:33:06 - INFO - Req was made | / 
+1.4.2024, 22:33:06 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:12 - INFO - Req was made | / 
+1.4.2024, 22:33:12 - INFO - Req was made | / 
+1.4.2024, 22:33:12 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:12 - INFO - Req was made | / 
+1.4.2024, 22:33:13 - INFO - Req was made | / 
+1.4.2024, 22:33:13 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:23 - INFO - Req was made | / 
+1.4.2024, 22:33:23 - INFO - Req was made | / 
+1.4.2024, 22:33:23 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:24 - INFO - Req was made | / 
+1.4.2024, 22:33:24 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:24 - INFO - Req was made | / 
+1.4.2024, 22:33:47 - INFO - Req was made | / 
+1.4.2024, 22:33:47 - INFO - Req was made | / 
+1.4.2024, 22:33:47 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:33:47 - INFO - Req was made | / 
+1.4.2024, 22:33:48 - INFO - Req was made | / 
+1.4.2024, 22:33:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:34:44 - INFO - Req was made | / 
+1.4.2024, 22:34:44 - INFO - Req was made | / 
+1.4.2024, 22:34:44 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:34:58 - INFO - Req was made | / 
+1.4.2024, 22:34:58 - INFO - Req was made | / 
+1.4.2024, 22:34:58 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:34:58 - INFO - Req was made | / 
+1.4.2024, 22:34:59 - INFO - Req was made | / 
+1.4.2024, 22:34:59 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:35:00 - INFO - Req was made | / 
+1.4.2024, 22:35:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:35:00 - INFO - Req was made | / 
+1.4.2024, 22:35:00 - INFO - Req was made | / 
+1.4.2024, 22:35:00 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:35:00 - INFO - Req was made | / 
+1.4.2024, 22:35:47 - INFO - Req was made | / 
+1.4.2024, 22:35:47 - INFO - Req was made | / 
+1.4.2024, 22:35:47 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:35:51 - INFO - Req was made | / 
+1.4.2024, 22:35:51 - INFO - Req was made | / 
+1.4.2024, 22:35:51 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:39:39 - INFO - Req was made | / 
+1.4.2024, 22:39:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:39:39 - INFO - Req was made | / 
+1.4.2024, 22:39:39 - INFO - Req was made | / 
+1.4.2024, 22:39:39 - INFO - Req was made | / 
+1.4.2024, 22:39:39 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:41:43 - INFO - Req was made | / 
+1.4.2024, 22:41:43 - INFO - Req was made | / 
+1.4.2024, 22:41:43 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:41:43 - INFO - Req was made | / 
+1.4.2024, 22:41:43 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:41:43 - INFO - Req was made | / 
+1.4.2024, 22:42:29 - INFO - Req was made | / 
+1.4.2024, 22:42:29 - INFO - Req was made | / 
+1.4.2024, 22:42:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 22:42:29 - INFO - Req was made | / 
+1.4.2024, 22:42:29 - INFO - Req was made | / 
+1.4.2024, 22:42:29 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:00:48 - INFO - Req was made | / 
+1.4.2024, 23:00:48 - INFO - Req was made | / 
+1.4.2024, 23:00:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:00:48 - INFO - Req was made | / 
+1.4.2024, 23:00:48 - INFO - Req was made | / 
+1.4.2024, 23:00:48 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:06:44 - INFO - Req was made | / 
+1.4.2024, 23:06:44 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:06:44 - INFO - Req was made | / 
+1.4.2024, 23:06:44 - INFO - Req was made | / 
+1.4.2024, 23:06:44 - INFO - Req was made | / 
+1.4.2024, 23:06:44 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:06:50 - INFO - Req was made | / 
+1.4.2024, 23:06:50 - INFO - Req was made | / 
+1.4.2024, 23:06:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:06:50 - INFO - Req was made | / 
+1.4.2024, 23:06:50 - DEBUG - Loading Toys | {"name":"","inStock":"all","sortBy":"","labels":""} 
+1.4.2024, 23:06:50 - INFO - Req was made | / 
+2.4.2024, 0:22:06 - INFO - server.js loaded... 
+2.4.2024, 0:22:06 - INFO - Server is running on port: 3030 
+2.4.2024, 0:27:28 - INFO - Req was made | / 
+2.4.2024, 0:27:29 - ERROR - while finding user 660b26c11906383e02027bd4 | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:27:29 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:28:30 - INFO - Req was made | / 
+2.4.2024, 0:28:31 - ERROR - while finding user 660b26fe1906383e02027bd7 | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:28:31 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:29:10 - INFO - Req was made | / 
+2.4.2024, 0:29:10 - ERROR - while finding user 660b27261906383e02027bda | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:29:10 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:29:35 - INFO - Req was made | / 
+2.4.2024, 0:29:36 - ERROR - while finding user 660b273f1906383e02027bdd | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:29:36 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:30:17 - INFO - server.js loaded... 
+2.4.2024, 0:30:17 - INFO - Server is running on port: 3030 
+2.4.2024, 0:31:45 - INFO - Req was made | / 
+2.4.2024, 0:31:45 - ERROR - Failed to add review | TypeError: Assignment to constant variable. 
+2.4.2024, 0:33:07 - INFO - server.js loaded... 
+2.4.2024, 0:33:07 - INFO - Server is running on port: 3030 
+2.4.2024, 0:33:11 - INFO - Req was made | / 
+2.4.2024, 0:33:16 - ERROR - Failed to add review | TypeError: Assignment to constant variable. 
+2.4.2024, 0:33:33 - INFO - server.js loaded... 
+2.4.2024, 0:33:33 - INFO - Server is running on port: 3030 
+2.4.2024, 0:33:35 - INFO - Req was made | / 
+2.4.2024, 0:33:36 - ERROR - while finding user 660b282f7ffff63f669da12f | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:33:36 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:34:42 - INFO - server.js loaded... 
+2.4.2024, 0:34:42 - INFO - Server is running on port: 3030 
+2.4.2024, 0:34:44 - INFO - Req was made | / 
+2.4.2024, 0:34:44 - INFO - {} 
+2.4.2024, 0:34:46 - ERROR - while finding user 660b2874c219b53f9b536fa2 | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:34:46 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+2.4.2024, 0:36:32 - INFO - server.js loaded... 
+2.4.2024, 0:36:32 - INFO - Server is running on port: 3030 
+2.4.2024, 0:37:10 - INFO - server.js loaded... 
+2.4.2024, 0:37:10 - INFO - Server is running on port: 3030 

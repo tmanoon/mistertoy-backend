@@ -19,8 +19,6 @@ export async function loadToys(req, res) {
     }
 }
 
-console.log(logger)
-
 export async function getToyById(req, res) {
     try {
         const toyId = req.params.id
@@ -34,11 +32,11 @@ export async function getToyById(req, res) {
 
 export async function addToy(req, res) {
     try {
-        const loggedInUser = authService.validateToken(req.cookies.loginToken)
         logger.info(req.body)
         const toy = req.body
-        toy.owner = loggedInUser.fullname
+        toy.owner = JSON.parse(req.loggedInUser.fullname)
         const addedToy = await toyService.add(toy)
+        addedToy.createdAt = await ObjectId(addedToy._id).getTimestamp()
         res.json(addedToy)
     } catch (err) {
         logger.error('Failed to add toy', err)
@@ -76,6 +74,7 @@ export async function addToyMsg(req, res) {
             txt: req.body.txt,
             by: loggedinUser,
         }
+        logger.info(msg)
         const savedMsg = await toyService.addToyMsg(toyId, msg)
         res.json(savedMsg)
     } catch (err) {
