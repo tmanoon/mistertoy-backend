@@ -7,7 +7,8 @@ export async function loadToys(req, res) {
         const filterBy = {
             name: req.query.name || '',
             inStock: req.query.inStock || '',
-            sortBy: req.query.sortBy || ''
+            sortBy: req.query.sortBy || '',
+            labels: req.query.labels || ''
         }
         logger.debug('Loading Toys', filterBy)
         const toys = await toyService.query(filterBy)
