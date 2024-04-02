@@ -74,8 +74,8 @@ async function remove(reviewId) {
 async function add(review) {
     try {
         const reviewToAdd = {
-            byUserId: ObjectId(review.userId),
-            aboutUserId: ObjectId(review.aboutUserId),
+            userId: ObjectId(review.userId),
+            toyId: ObjectId(review.toyId),
             txt: review.txt
         }
         const collection = await dbService.getCollection('review')
